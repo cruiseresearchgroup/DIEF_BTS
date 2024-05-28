@@ -2,6 +2,8 @@ This repo is under construction.
 
 # Building Timeseries Dataset
 
+![gray concrete building covered trees](danist-soh-dqXiw7nCb9Q-unsplash.jpg)
+
 Photo by <a href="https://unsplash.com/@danist07?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Danist Soh</a> on <a href="https://unsplash.com/photos/gray-concrete-building-covered-trees-dqXiw7nCb9Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 This is the primary repo to access the dataset.
