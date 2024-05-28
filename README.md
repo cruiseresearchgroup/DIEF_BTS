@@ -19,6 +19,8 @@ These tasks represent an essential initial step in ensuring that analytics solut
 
 # Dataset Access
 
+https://figshare.com/s/b73df11bb4979e46267e
+
 DOI: 10.6084/m9.figshare.25912180
 
 Note that, as of now, only the training data are made publicly available as we are planning to host a competition using this dataset.
