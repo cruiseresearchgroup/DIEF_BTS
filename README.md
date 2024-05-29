@@ -25,3 +25,18 @@ DOI: 10.6084/m9.figshare.25912180
 
 Note that, as of now, only the training data are made publicly available as we are planning to host a competition using this dataset.
 
+List of files available now:
+* `train.zip` is the raw time series data
+* `Site_B.ttl` is the turtle file that contains the metadata of Site B using the Brick schema: https://brickschema.org
+* `mapper_TrainOnly.csv` contains the information that maps the timeseries filenames in `train.zip` to the `StreamID` in `Site_B.ttl`. Some buildings in `train.zip` are from Site A and the brick schema is not yet made available. This is on purpose.
+* `train_X.zip` and `train_Y.csv` are generated from `train.zip` using the function in the `xySplit.py` file.
+* `train_Y.csv` see above.
+
+
+List of files that will be made available after the competitions:
+* `test.zip`
+* `Site_A.ttl`
+* `Site_C.ttl`
+* `mapper.csv`
+
+# Code
