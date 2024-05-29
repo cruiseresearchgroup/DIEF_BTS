@@ -1,0 +1,472 @@
+Package                    Version
+-------------------------- -----------
+axial-positional-embedding 0.2.1
+CoLT5-attention            0.10.20
+contourpy                  1.2.1
+cycler                     0.12.1
+Deprecated                 1.2.14
+einops                     0.8.0
+filelock                   3.14.0
+fonttools                  4.51.0
+fsspec                     2024.5.0
+importlib-resources        6.4.0
+jinja2                     3.1.4
+joblib                     1.4.2
+kiwisolver                 1.4.5
+llvmlite                   0.42.0
+local-attention            1.9.1
+MarkupSafe                 2.1.5
+matplotlib                 3.7.0
+mpmath                     1.3.0
+networkx                   3.2.1
+numba                      0.59.1
+numpy                      1.23.5
+nvidia-cublas-cu12         12.1.3.1
+nvidia-cuda-cupti-cu12     12.1.105
+nvidia-cuda-nvrtc-cu12     12.1.105
+nvidia-cuda-runtime-cu12   12.1.105
+nvidia-cudnn-cu12          8.9.2.26
+nvidia-cufft-cu12          11.0.2.54
+nvidia-curand-cu12         10.3.2.106
+nvidia-cusolver-cu12       11.4.5.107
+nvidia-cusparse-cu12       12.1.0.106
+nvidia-nccl-cu12           2.20.5
+nvidia-nvjitlink-cu12      12.4.127
+nvidia-nvtx-cu12           12.1.105
+packaging                  24.0
+pandas                     1.5.3
+patool                     1.12
+pillow                     10.3.0
+pip                        20.2.3
+product-key-memory         0.2.10
+pyparsing                  3.1.2
+python-dateutil            2.9.0.post0
+pytz                       2024.1
+reformer-pytorch           1.4.4
+scikit-learn               1.2.2
+scipy                      1.10.1
+setuptools                 49.2.1
+six                        1.16.0
+sktime                     0.16.1
+sympy                      1.12
+threadpoolctl              3.5.0
+torch                      2.3.0
+tqdm                       4.64.1
+triton                     2.3.0
+typing-extensions          4.11.0
+wrapt                      1.16.0
+zipp                       3.18.2
+/scratch/hn98/ap8021/DIEF
+Mon May 20 01:00:45 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-SXM2-32GB           On  |   00000000:3E:00.0 Off |                    0 |
+| N/A   33C    P0             41W /  300W |       0MiB /  32768MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              96
+On-line CPU(s) list: 0-95
+Thread(s) per core:  2
+Core(s) per socket:  24
+Socket(s):           2
+NUMA node(s):        4
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               85
+Model name:          Intel(R) Xeon(R) Platinum 8268 CPU @ 2.90GHz
+Stepping:            7
+CPU MHz:             1200.084
+CPU max MHz:         3900.0000
+CPU min MHz:         1200.0000
+BogoMIPS:            5800.00
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            1024K
+L3 cache:            36608K
+NUMA node0 CPU(s):   0-3,7-9,13-15,19,20,48-51,55-57,61-63,67,68
+NUMA node1 CPU(s):   4-6,10-12,16-18,21-23,52-54,58-60,64-66,69-71
+NUMA node2 CPU(s):   24-27,31,32,36-38,42-44,72-75,79,80,84-86,90-92
+NUMA node3 CPU(s):   28-30,33-35,39-41,45-47,76-78,81-83,87-89,93-95
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke avx512_vnni md_clear flush_l1d arch_capabilities
+using cuda
+Args in experiment:
+{'activation': 'gelu',
+ 'batch_size': 144,
+ 'c_out': 240,
+ 'channel_independence': 1,
+ 'd_conv': 4,
+ 'd_ff': 256,
+ 'd_layers': 1,
+ 'd_model': 128,
+ 'dec_in': 7,
+ 'decomp_method': 'moving_avg',
+ 'des': 'Exp',
+ 'devices': '0,1,2,3',
+ 'distil': True,
+ 'down_sampling_layers': 0,
+ 'down_sampling_method': None,
+ 'down_sampling_window': 1,
+ 'dropout': 0.1,
+ 'e_layers': 3,
+ 'embed': 'timeF',
+ 'enc_in': 4,
+ 'exp_folder': '/scratch/hn98/ap8021/DIEF/e12_transformer/',
+ 'expand': 2,
+ 'factor': 1,
+ 'freq': 'h',
+ 'gpu': 0,
+ 'is_training': 1,
+ 'learning_rate': 0.01,
+ 'lradj': 'type1',
+ 'model': 'Transformer',
+ 'model_id': 'DIEF',
+ 'moving_avg': 25,
+ 'n_heads': 8,
+ 'num_kernels': 6,
+ 'num_workers': 10,
+ 'output_attention': False,
+ 'patience': 30,
+ 'pos_weight': 50,
+ 'pred_len': 240,
+ 'root_path': '/scratch/hn98/ap8021/DIEF/dataset/',
+ 'seed': 0,
+ 'seg_len': 48,
+ 'seq_len': 336,
+ 'task_name': 'classification',
+ 'test_run': False,
+ 'top_k': 3,
+ 'train_epochs': 100,
+ 'use_amp': False,
+ 'use_gpu': True,
+ 'use_multi_gpu': False,
+ 'use_norm': 1}
+Use GPU: cuda:0
+Model(
+  (enc_embedding): DataEmbedding(
+    (value_embedding): TokenEmbedding(
+      (tokenConv): Conv1d(4, 128, kernel_size=(3,), stride=(1,), padding=(1,), bias=False, padding_mode=circular)
+    )
+    (position_embedding): PositionalEmbedding()
+    (temporal_embedding): TimeFeatureEmbedding(
+      (embed): Linear(in_features=4, out_features=128, bias=False)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+  (encoder): Encoder(
+    (attn_layers): ModuleList(
+      (0-2): 3 x EncoderLayer(
+        (attention): AttentionLayer(
+          (inner_attention): FullAttention(
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (query_projection): Linear(in_features=128, out_features=128, bias=True)
+          (key_projection): Linear(in_features=128, out_features=128, bias=True)
+          (value_projection): Linear(in_features=128, out_features=128, bias=True)
+          (out_projection): Linear(in_features=128, out_features=128, bias=True)
+        )
+        (conv1): Conv1d(128, 256, kernel_size=(1,), stride=(1,))
+        (conv2): Conv1d(256, 128, kernel_size=(1,), stride=(1,))
+        (norm1): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+        (norm2): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.1, inplace=False)
+  (projection): Linear(in_features=43008, out_features=240, bias=True)
+)
+>>>>>>>start training : >>>>>>>>>>>>>>>>>>>>>>>>>>
+datasetDIEF_rs4H: TRAIN : Has Y label.
+datasetDIEF_rs4H: VALI : Has Y label.
+	iters: 100, epoch: 1 | loss: 1.0157893
+	speed: 0.1358s/iter; left time: 2390.2551s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+    0.610306    0.0111841     0.337664    0.0197577    0.0124093
+Validation loss decreased (inf --> 1.095082).  Saving model ...
+Epoch: 1 cost time: 20.228361129760742
+Epoch: 1, Steps: 177 | Train Loss: 1.208 Vali Loss: 1.095
+	iters: 100, epoch: 2 | loss: 1.1404341
+	speed: 0.1885s/iter; left time: 3284.9921s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6536165    0.0109037    0.3047856    0.0192174    0.0123276
+EarlyStopping counter: 1 out of 30
+Epoch: 2 cost time: 16.461894035339355
+Epoch: 2, Steps: 177 | Train Loss: 1.052 Vali Loss: 1.105
+	iters: 100, epoch: 3 | loss: 0.9130440
+	speed: 0.1855s/iter; left time: 3200.0059s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6395296    0.0108348     0.288588    0.0190789    0.0123986
+EarlyStopping counter: 2 out of 30
+Epoch: 3 cost time: 16.47145104408264
+Epoch: 3, Steps: 177 | Train Loss: 1.047 Vali Loss: 1.118
+	iters: 100, epoch: 4 | loss: 1.1030716
+	speed: 0.1850s/iter; left time: 3158.0922s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6363963      0.01075    0.3066967    0.0189112    0.0123446
+Validation loss decreased (1.095082 --> 1.085213).  Saving model ...
+Epoch: 4 cost time: 16.49722385406494
+Epoch: 4, Steps: 177 | Train Loss: 1.048 Vali Loss: 1.085
+	iters: 100, epoch: 5 | loss: 1.0877908
+	speed: 0.1874s/iter; left time: 3165.1348s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6565196    0.0109155     0.306159    0.0192261    0.0126603
+EarlyStopping counter: 1 out of 30
+Updating learning rate to 0.000625
+Epoch: 5 cost time: 16.578624725341797
+Epoch: 5, Steps: 177 | Train Loss: 1.196 Vali Loss: 1.124
+	iters: 100, epoch: 6 | loss: 1.0759630
+	speed: 0.1864s/iter; left time: 3115.0757s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6496762    0.0108461    0.3095719    0.0190988    0.0122478
+EarlyStopping counter: 2 out of 30
+Epoch: 6 cost time: 16.548023223876953
+Epoch: 6, Steps: 177 | Train Loss: 1.033 Vali Loss: 1.093
+	iters: 100, epoch: 7 | loss: 1.0247498
+	speed: 0.1857s/iter; left time: 3071.8966s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6497198    0.0109057    0.3154304    0.0192198    0.0122564
+EarlyStopping counter: 3 out of 30
+Epoch: 7 cost time: 16.49826693534851
+Epoch: 7, Steps: 177 | Train Loss: 1.031 Vali Loss: 1.090
+	iters: 100, epoch: 8 | loss: 1.0993937
+	speed: 0.1862s/iter; left time: 3045.9995s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6496419    0.0108557    0.3126028    0.0191147    0.0122411
+EarlyStopping counter: 4 out of 30
+Epoch: 8 cost time: 16.488953590393066
+Epoch: 8, Steps: 177 | Train Loss: 1.031 Vali Loss: 1.091
+	iters: 100, epoch: 9 | loss: 0.9295833
+	speed: 0.1865s/iter; left time: 3018.8094s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6580661    0.0108334    0.3055931     0.019079    0.0122736
+EarlyStopping counter: 5 out of 30
+Epoch: 9 cost time: 16.52255415916443
+Epoch: 9, Steps: 177 | Train Loss: 1.030 Vali Loss: 1.108
+	iters: 100, epoch: 10 | loss: 1.0049163
+	speed: 0.1863s/iter; left time: 2981.5513s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+    0.653877    0.0108789    0.3079554    0.0191558    0.0126331
+EarlyStopping counter: 6 out of 30
+Updating learning rate to 1.953125e-05
+Epoch: 10 cost time: 16.49004364013672
+Epoch: 10, Steps: 177 | Train Loss: 1.031 Vali Loss: 1.102
+	iters: 100, epoch: 11 | loss: 0.9952704
+	speed: 0.1854s/iter; left time: 2934.9678s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6523926    0.0108453    0.3094574    0.0190973    0.0122298
+EarlyStopping counter: 7 out of 30
+Epoch: 11 cost time: 16.47998833656311
+Epoch: 11, Steps: 177 | Train Loss: 1.030 Vali Loss: 1.098
+	iters: 100, epoch: 12 | loss: 0.9291902
+	speed: 0.1849s/iter; left time: 2895.0963s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6483372    0.0108538    0.3110793    0.0191159    0.0122292
+EarlyStopping counter: 8 out of 30
+Epoch: 12 cost time: 16.465201377868652
+Epoch: 12, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 13 | loss: 1.0826073
+	speed: 0.1853s/iter; left time: 2868.3229s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+     0.64833    0.0108537    0.3110793    0.0191157    0.0123006
+EarlyStopping counter: 9 out of 30
+Epoch: 13 cost time: 16.480034112930298
+Epoch: 13, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.094
+	iters: 100, epoch: 14 | loss: 0.9975485
+	speed: 0.1871s/iter; left time: 2862.2670s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+    0.648322    0.0108537    0.3110793    0.0191156    0.0126799
+EarlyStopping counter: 10 out of 30
+Epoch: 14 cost time: 16.48983907699585
+Epoch: 14, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.094
+	iters: 100, epoch: 15 | loss: 0.9383220
+	speed: 0.1870s/iter; left time: 2828.2047s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156    0.0122345
+EarlyStopping counter: 11 out of 30
+Updating learning rate to 6.103515625e-07
+Epoch: 15 cost time: 16.4900221824646
+Epoch: 15, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 16 | loss: 0.9852149
+	speed: 0.1874s/iter; left time: 2801.4517s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156    0.0122345
+EarlyStopping counter: 12 out of 30
+Epoch: 16 cost time: 16.49443006515503
+Epoch: 16, Steps: 177 | Train Loss: 1.028 Vali Loss: 1.095
+	iters: 100, epoch: 17 | loss: 0.9749645
+	speed: 0.1858s/iter; left time: 2744.4394s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156    0.0122345
+EarlyStopping counter: 13 out of 30
+Epoch: 17 cost time: 16.4238862991333
+Epoch: 17, Steps: 177 | Train Loss: 1.028 Vali Loss: 1.095
+	iters: 100, epoch: 18 | loss: 1.0602475
+	speed: 0.1874s/iter; left time: 2734.5054s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156    0.0122347
+EarlyStopping counter: 14 out of 30
+Epoch: 18 cost time: 16.535863399505615
+Epoch: 18, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 19 | loss: 1.1430990
+	speed: 0.1873s/iter; left time: 2700.0275s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156    0.0122331
+EarlyStopping counter: 15 out of 30
+Epoch: 19 cost time: 16.609918355941772
+Epoch: 19, Steps: 177 | Train Loss: 1.028 Vali Loss: 1.095
+	iters: 100, epoch: 20 | loss: 1.0265619
+	speed: 0.1862s/iter; left time: 2650.7238s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 16 out of 30
+Updating learning rate to 1.9073486328125e-08
+Epoch: 20 cost time: 16.513617753982544
+Epoch: 20, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 21 | loss: 1.0884697
+	speed: 0.1852s/iter; left time: 2604.0724s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 17 out of 30
+Epoch: 21 cost time: 16.311302423477173
+Epoch: 21, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 22 | loss: 0.8950494
+	speed: 0.1861s/iter; left time: 2583.3814s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 18 out of 30
+Epoch: 22 cost time: 16.444162130355835
+Epoch: 22, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 23 | loss: 1.0342841
+	speed: 0.1861s/iter; left time: 2550.5256s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 19 out of 30
+Epoch: 23 cost time: 16.446314096450806
+Epoch: 23, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 24 | loss: 1.2146102
+	speed: 0.1867s/iter; left time: 2526.7151s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 20 out of 30
+Epoch: 24 cost time: 16.481016874313354
+Epoch: 24, Steps: 177 | Train Loss: 1.028 Vali Loss: 1.095
+	iters: 100, epoch: 25 | loss: 1.1155597
+	speed: 0.1868s/iter; left time: 2494.8561s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 21 out of 30
+Updating learning rate to 5.960464477539063e-10
+Epoch: 25 cost time: 16.517279624938965
+Epoch: 25, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 26 | loss: 0.9656492
+	speed: 0.1882s/iter; left time: 2479.4087s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 22 out of 30
+Epoch: 26 cost time: 16.54693102836609
+Epoch: 26, Steps: 177 | Train Loss: 1.028 Vali Loss: 1.095
+	iters: 100, epoch: 27 | loss: 1.1081560
+	speed: 0.1879s/iter; left time: 2442.5611s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 23 out of 30
+Epoch: 27 cost time: 16.55636739730835
+Epoch: 27, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 28 | loss: 0.9863371
+	speed: 0.1874s/iter; left time: 2403.3181s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 24 out of 30
+Epoch: 28 cost time: 16.45772957801819
+Epoch: 28, Steps: 177 | Train Loss: 1.028 Vali Loss: 1.095
+	iters: 100, epoch: 29 | loss: 1.0165870
+	speed: 0.1877s/iter; left time: 2373.6203s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 25 out of 30
+Epoch: 29 cost time: 16.533061742782593
+Epoch: 29, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 30 | loss: 1.0106272
+	speed: 0.1881s/iter; left time: 2345.6874s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 26 out of 30
+Updating learning rate to 1.862645149230957e-11
+Epoch: 30 cost time: 16.501746892929077
+Epoch: 30, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 31 | loss: 1.0122975
+	speed: 0.1878s/iter; left time: 2308.0979s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 27 out of 30
+Epoch: 31 cost time: 16.475135326385498
+Epoch: 31, Steps: 177 | Train Loss: 1.028 Vali Loss: 1.095
+	iters: 100, epoch: 32 | loss: 1.1742988
+	speed: 0.1882s/iter; left time: 2280.1098s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 28 out of 30
+Epoch: 32 cost time: 16.477665424346924
+Epoch: 32, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 33 | loss: 0.9577944
+	speed: 0.1877s/iter; left time: 2240.9847s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 29 out of 30
+Epoch: 33 cost time: 16.508702993392944
+Epoch: 33, Steps: 177 | Train Loss: 1.029 Vali Loss: 1.095
+	iters: 100, epoch: 34 | loss: 0.9739022
+	speed: 0.1884s/iter; left time: 2215.5036s
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455615    0.0108537    0.3110793    0.0191156     0.012233
+EarlyStopping counter: 30 out of 30
+Early stopping
+end of train: GPU_allocated_memory 6046089216
+>>>>>>>testing : <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+datasetDIEF_rs4H: TRAIN_ALL : Has Y label.
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6455838    0.0108224    0.3154139    0.0190878    0.0126512
+datasetDIEF_rs4H: TEST : Has Y label.
+loading model
+test shape: torch.Size([329439, 240]) (329439, 243)
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6363458    0.0109005    0.3647744    0.0184585    0.0120798
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6358421    0.0103225    0.3698371    0.0179527    0.0121004
+  Accuracy  | Precision  |   Recall   |     F1     |    mAP     
+   0.6360954    0.0106488    0.3701036    0.0182106    0.0120031
+/scratch/hn98/ap8021/DIEF/e12_transformer/expDIEF1716130915_511930.json
+/scratch/hn98/ap8021/DIEF/e12_transformer/checkpoints/expDIEF1716130915_511930.pth
+/scratch/hn98/ap8021/DIEF/e12_transformer/test_H/expDIEF1716130915_511930.csv
+
+======================================================================================
+                  Resource Usage on 2024-05-20 01:45:32:
+   Job Id:             116050675.gadi-pbs
+   Project:            hn98
+   Exit Status:        0
+   Service Units:      26.93
+   NCPUs Requested:    12                     NCPUs Used: 12              
+                                           CPU Time Used: 00:57:49        
+   Memory Requested:   48.0GB                Memory Used: 19.89GB         
+   NGPUs Requested:    1                 GPU Utilisation: 1%              
+                                         GPU Memory Used: 6.32GB          
+   Walltime requested: 03:00:00            Walltime Used: 00:44:53        
+   JobFS requested:    100.0MB                JobFS used: 0B              
+======================================================================================
