@@ -17,13 +17,17 @@ However, research in building analytics has been hampered by the lack of publicl
 To demonstrate the utility of this dataset, we performed benchmarks on two tasks: timeseries ontology classification and zero-shot forecasting.
 These tasks represent an essential initial step in ensuring that analytics solutions developed for one building / on public datasets, will maintain performance on new buildings without re-training.
 
-# Dataset Access
+# Dataset
+
+## Access
 
 https://figshare.com/s/b73df11bb4979e46267e
 
 DOI: 10.6084/m9.figshare.25912180
 
 Note that, as of now, only the training data are made publicly available as we are planning to host a competition using this dataset.
+
+## Files description
 
 List of files available now:
 * `train.zip` is the raw time series data
