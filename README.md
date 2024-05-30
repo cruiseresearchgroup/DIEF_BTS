@@ -44,3 +44,18 @@ List of files that will be made available after the competitions:
 * `mapper.csv`
 
 # Code
+
+
+
+* `xySplit.py` Use this to split `train.zip` to `train_X.zip` and `train_Y.csv`.
+* `e05_naieve_02.ipynb` Run this notebok to get the naieve results.
+* `e07_02_LR.ipynb` Run this notebook to get the Logistic Regression results.
+* `e08_02_RF.ipynb` Run thus notebook to get the Random Forest results.
+* `e09_01_XGBoost.ipynb` Run this notebook to get the XGBoost results.
+* `thuml_tslib_dief` This folder contains the modified library
+* `e12_pbs_py.sh	`
+* `e12_pbs_py.sh.o116050675`
+* `e13_pbs_py.sh`
+* `e15_pbs_py.sh`
+* `e17_pbs_py.sh`
+
