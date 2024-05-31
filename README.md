@@ -46,6 +46,7 @@ List of files that will be made available after the competitions:
 # Code
 
 The `20240530_class_code` folder contains the code to reproduce the classifications results.
+Here is a short description of each file:
 
 * `requirement.txt` **is coming**, but all the information are already available in `e12_pbs_py.sh.o116050675`.
 * `xySplit.py` Use this to split `train.zip` to `train_X.zip` and `train_Y.csv`.
