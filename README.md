@@ -26,10 +26,12 @@ These tasks represent an essential initial step in ensuring that analytics solut
 
 ## Snippet
 
+![A plot of the timeseries in the snippet.](snippet_TS_plot.png)
+
 For ease, we provided a very small snippet of the dataset: `DIEF_B_Snippet50_3weeks.pkl.zip`.
 Only 50 timeseries, all from `Site B`, haphazardly selected.
 This file is less than 10 MB, small enough to be sent as email attachment in most system.
-Accompanied with it is a short code to extract and visualize the dataset: `DIEF_inspect_Snippet.ipynb` .
+Accompanied with it is a short code to extract and visualize the dataset: `DIEF_inspect_Snippet.ipynb`.
 
 ## Access
 
