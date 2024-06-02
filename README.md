@@ -80,3 +80,9 @@ Here is a short description of each file:
 * `e15_pbs_py.sh` `PatchTST`
 * `e17_pbs_py.sh` `Informer`
 
+# Misc
+
+* Contact for this code repo: https://www.arianprabowo.com/
+* Similar dataset: [LBNL Building 59](https://datadryad.org/stash/dataset/doi:10.7941/D1N33Q) A three-year building operational performance dataset for informing energy efficiency
+* Other buildings related dataset: [Building Data Genome Directory](https://buds-lab-building-data-directory-meta-directory-s0imdd.streamlit.app/)
+
