@@ -17,7 +17,19 @@ However, research in building analytics has been hampered by the lack of publicl
 To demonstrate the utility of this dataset, we performed benchmarks on two tasks: timeseries ontology classification and zero-shot forecasting.
 These tasks represent an essential initial step in ensuring that analytics solutions developed for one building / on public datasets, will maintain performance on new buildings without re-training.
 
+
+
+
+
+
 # Dataset
+
+## Snippet
+
+For ease, we provided a very small snippet of the dataset: `DIEF_B_Snippet50_3weeks.pkl.zip`.
+Only 50 timeseries, all from `Site B`, haphazardly selected.
+This file is less than 10 MB, small enough to be sent as email attachment in most system.
+Accompanied with it is a short code to extract and visualize the dataset: `DIEF_inspect_Snippet.ipynb` .
 
 ## Access
 
@@ -42,6 +54,11 @@ List of files that will be made available after the competitions:
 * `Site_A.ttl`
 * `Site_C.ttl`
 * `mapper.csv`
+
+
+
+
+
 
 # Code
 
