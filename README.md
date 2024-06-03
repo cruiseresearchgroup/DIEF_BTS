@@ -1,6 +1,6 @@
 This repo is under construction.
 
-# Building Timeseries Dataset
+# Building Timeseries (BTS) Dataset
 
 ![gray concrete building covered trees](danist-soh-dqXiw7nCb9Q-unsplash.jpg)
 
