@@ -26,7 +26,7 @@ These tasks represent an essential initial step in ensuring that analytics solut
 
 ## Snippet
 
-![A plot of the timeseries in the snippet.](snippet_TS_plot.png)
+![A plot of the timeseries in the snippet.](snippet_6TS_plot.png)
 
 For ease, we provided a very small snippet of the dataset: `DIEF_B_Snippet50_3weeks.pkl.zip`.
 Only 50 timeseries, all from `Site B`, haphazardly selected.
