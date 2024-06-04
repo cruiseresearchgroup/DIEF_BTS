@@ -37,7 +37,7 @@ Accompanied with it is a short code to extract and visualize the dataset: `DIEF_
 
 Public access is not available yet. It will be made available before 12 June 2024 AOE.
 
-DOI: 10.6084/m9.figshare.25912180
+DOI: 10.6084/m9.figshare.25912180 (Not available yet.)
 
 ~~Note that, as of now, only the training data are made publicly available as we are planning to host a competition using this dataset.
 
