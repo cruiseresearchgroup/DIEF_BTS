@@ -35,7 +35,7 @@ Accompanied with it is a short code to extract and visualize the dataset: `DIEF_
 
 ## Access
 
-Public access is not available yet. It will be made available before Monday 17 June 2024.
+Public access is not available yet. It will be made available before 12 June 2024 AOE.
 
 DOI: 10.6084/m9.figshare.25912180
 
