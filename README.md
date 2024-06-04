@@ -35,11 +35,11 @@ Accompanied with it is a short code to extract and visualize the dataset: `DIEF_
 
 ## Access
 
-https://figshare.com/s/b73df11bb4979e46267e
+Public access is not available yet. It will be made available before Monday 17 June 2024.
 
 DOI: 10.6084/m9.figshare.25912180
 
-Note that, as of now, only the training data are made publicly available as we are planning to host a competition using this dataset.
+~~Note that, as of now, only the training data are made publicly available as we are planning to host a competition using this dataset.
 
 ## Files description
 
