@@ -33,6 +33,9 @@ Only 50 timeseries, all from `Site B`, haphazardly selected.
 This file is less than 10 MB, small enough to be sent as email attachment in most system.
 Accompanied with it is a short code to extract and visualize the dataset: `DIEF_inspect_Snippet.ipynb`.
 
+We also provided the building metadata `Site_B.ttl` in the form of a [Brick](https://brickschema.org/ontology/1.2) [turtle](https://www.w3.org/TR/turtle/) file.
+Accompanied with it is a Brick definition file `Brick_v1.2.1.ttl` and a short code to extract the statistics: `DIEF_inspect_brick.ipynb`.
+
 ## Access
 
 Public access is not available yet. It will be made available before 12 June 2024 AOE.
