@@ -35,7 +35,7 @@ Accompanied with it is a short code to extract and visualize the dataset: `DIEF_
 
 We also provided the building metadata `Site_B.ttl` in the form of a [Brick](https://brickschema.org/ontology/1.2) [turtle](https://www.w3.org/TR/turtle/) file.
 Accompanied with it is a Brick definition file `Brick_v1.2.1.ttl` and a short code to extract the statistics: `DIEF_inspect_brick.ipynb`.
-If you have not, you will need to install the (rdflib)[https://rdflib.readthedocs.io] python package.
+If you have not, you will need to install the [rdflib](https://rdflib.readthedocs.io) python package.
 
 ## Access
 
