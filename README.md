@@ -78,7 +78,7 @@ Here is a short description of each file:
 * `e08_02_RF.ipynb` Run thus notebook to get the Random Forest results.
 * `e09_01_XGBoost.ipynb` Run this notebook to get the XGBoost results.
 * `thuml_tslib_dief` This folder contains the **modified** library from Tsinghua University Machine Learning Group's library: https://github.com/thuml/Time-Series-Library
-* `e12_pbs_py.sh` This is the setup to run the `Transformer` model.
+* `e12_pbs_py.sh` This is the setup to run the `Transformer` model. Consider this as the **main** function.
 * `e12_pbs_py.sh.o116050675` This is the output of the above setup. It contains detailed information about installed Python packages, their version, as well as the hardware specifications.
 * `e13_pbs_py.sh` `DLinear`
 * `e15_pbs_py.sh` `PatchTST`
