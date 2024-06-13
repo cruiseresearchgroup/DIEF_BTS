@@ -2,9 +2,9 @@ This repo is under construction.
 
 # BTS: Building Timeseries Dataset
 
-![gray concrete building covered trees](danist-soh-dqXiw7nCb9Q-unsplash.jpg)
+![A dilapidated grey building is seen as in a 3D plan against a bright red background. 0s and 1s represent data streaming out of the windows and gaps in the roof.](AntonGrabolle-AIArchitecture-1280x720.png)
 
-Photo by <a href="https://unsplash.com/@danist07?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Danist Soh</a> on <a href="https://unsplash.com/photos/gray-concrete-building-covered-trees-dqXiw7nCb9Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+<a href="https://www.instagram.com/miss.tonton/">Anton Grabolle</a> / <a href="https://www.betterimagesofai.org">Better Images of AI</a> / AI Architecture / <a href="https://creativecommons.org/licenses/by/4.0/">Licenced by CC-BY 4.0</a></span>
 
 The Building TimeSeries (BTS) dataset covers three buildings over a three-year period, comprising more than ten thousand timeseries data points with hundreds of unique ontologies.
 Moreover, the metadata is standardized using the Brick schema.
