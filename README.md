@@ -32,7 +32,7 @@ Access to the dataset and the code used for benchmarking are available here: htt
 
 # Dataset
 
-View the [datacard](https://sites.research.google/datacardsplaybook/) [here](BTS_DataCards.md).
+View the [data card](https://sites.research.google/datacardsplaybook/) [here](BTS_DataCards.md).
 
 ## Snippet
 
