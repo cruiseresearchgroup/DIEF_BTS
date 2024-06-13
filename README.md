@@ -24,7 +24,7 @@ Our dataset covers three buildings over a three-year period, comprising more tha
 Moreover, the metadata is standardized using the Brick schema.
 To demonstrate the utility of this dataset, we performed benchmarks on two tasks: timeseries ontology classification and zero-shot forecasting.
 These tasks represent an essential initial step in addressing challenges related to interoperability in building analytics.
-Access to the dataset and the code used for benchmarking are available here: https://github.com/cruiseresearchgroup/DIEF\_BTS
+Access to the dataset and the code used for benchmarking are available here: https://github.com/cruiseresearchgroup/DIEF_BTS
 
 
 
