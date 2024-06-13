@@ -54,7 +54,7 @@ Public access is not available yet. It will be made available before 12 June 202
 
 DOI: 10.6084/m9.figshare.25912180 (Not available yet.)
 
-~~Note that, as of now, only the training data are made publicly available as we are planning to host a competition using this dataset.
+Note that, as of now, only the training data are made publicly available as we are planning to host a competition using this dataset. (Last update 2024 06 12)
 
 ## Files description
 
@@ -97,6 +97,7 @@ Here is a short description of each file:
 
 The `20240630_zeroshot_code` folder contains the code to reproduce the zero-shot forecasting results. This folder is a **modified** library from Tsinghua University Machine Learning Group's library: https://github.com/thuml/Time-Series-Library
 
+* Note that, as of now, only the training data for the classification benchmark are made publicly available as we are planning to host a competition using this dataset. None of the data for the zero-shot forecasting benchmark are made available as of now. (Last update 2024 06 12)
 * `./scripts/sample_DLinear.sh` is a sample script that trains a DLinear on `BTS_A` and tests on `BTS_B` and `BTS_C`. To run the code, replace the argument `data_path` with your own data path
 * To train alternative models, replace the `model_name` with the target model name that is implemented in `./model` directory and change the corresponding configurations
 
