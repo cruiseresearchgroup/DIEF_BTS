@@ -32,7 +32,7 @@ Access to the dataset and the code used for benchmarking are available here: htt
 
 # Dataset
 
-The [datacard](https://sites.research.google/datacardsplaybook/) is available here: https://github.com/cruiseresearchgroup/DIEF_BTS/blob/main/BTS_DataCards.md
+View the [datacard](https://sites.research.google/datacardsplaybook/) is [here](BTS_DataCards.md).
 
 ## Snippet
 
