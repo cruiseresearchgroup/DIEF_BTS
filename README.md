@@ -97,6 +97,9 @@ Here is a short description of each file:
 
 The `20240630_zeroshot_code` folder contains the code to reproduce the zero-shot forecasting results. This folder is a **modified** library from Tsinghua University Machine Learning Group's library: https://github.com/thuml/Time-Series-Library
 
+* `sample_DLinear.sh` is a sample script that trains a DLinear on `BTS_A` and tests on `BTS_B` and `BTS_C`. To run the code, replace argument `data_path` with your own data path
+* To train alternative models, replace the `model_name` with the target model name that is implemented in `./model` directory and change the corresponding configurations
+
 # Misc
 
 * Contact for this code repo: https://www.arianprabowo.com/
