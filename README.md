@@ -66,22 +66,22 @@ List of files available now:
 * `train_Y.csv` see above.
 
 The following files are missing and it is intentional:
-* trainAll_2006.pkl
-* trainAll_5564.pkl
-* trainAll_6224.pkl
-* trainAll_6486.pkl
-* train_X10579.pkl
-* train_X22414.pkl
-* train_X26831.pkl
-* train_X14584.pkl
-* train_X27109.pkl
-* train_X25552.pkl
-* train_X30482.pkl
-* train_X31456.pkl
-* train_X3406.pkl
-* train_X8933.pkl
-* train_X14736.pkl
-* train_X31557.pkl
+* `trainAll_2006.pkl`
+* `trainAll_5564.pkl`
+* `trainAll_6224.pkl`
+* `trainAll_6486.pkl`
+* `train_X10579.pkl`
+* `train_X22414.pkl`
+* `train_X26831.pkl`
+* `train_X14584.pkl`
+* `train_X27109.pkl`
+* `train_X25552.pkl`
+* `train_X30482.pkl`
+* `train_X31456.pkl`
+* `train_X3406.pkl`
+* `train_X8933.pkl`
+* `train_X14736.pkl`
+* `train_X31557.pkl`
 
 List of files that will be made available after the competitions:
 * `test.zip`
