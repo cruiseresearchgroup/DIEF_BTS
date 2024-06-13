@@ -50,9 +50,9 @@ If you have not, you will need to install the [rdflib](https://rdflib.readthedoc
 
 ## Access
 
-Public access is not available yet. It will be made available before 12 June 2024 AOE.
+Access the training dataset on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Empowering_Large-Scale_Building_Analytics_TRAIN_ONLY_/25912180).
 
-DOI: 10.6084/m9.figshare.25912180 (Not available yet.)
+DOI: `10.6084/m9.figshare.25912180`
 
 Note that, as of now, only the training data are made publicly available as we are planning to host a competition using this dataset. (Last update 2024 06 12)
 
@@ -120,6 +120,20 @@ The `20240612_zeroshot_code` folder contains the code to reproduce the zero-shot
 * The zero-shot forecasting task shares the same `requirement.txt` as the classification task. 
 * `./scripts/sample_DLinear.sh` is a sample script that trains a DLinear on `BTS_A` and tests on `BTS_B` and `BTS_C`. To run the code, replace the argument `data_path` with your own data path
 * To train alternative models, replace the `model_name` with the target model name that is implemented in `./model` directory and change the corresponding configurations
+
+# Citation
+
+BibTex:
+```
+@article{Prabowo2024,
+author = "Arian Prabowo and Xiachong Lin and Imran Razzak and Hao Xue and Emily Yap and Matthew Amos and Flora Salim",
+title = "{BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics (TRAIN ONLY)}",
+year = "2024",
+month = "6",
+url = "https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Empowering_Large-Scale_Building_Analytics_TRAIN_ONLY_/25912180",
+doi = "10.6084/m9.figshare.25912180.v1"
+}
+```
 
 # Misc
 
