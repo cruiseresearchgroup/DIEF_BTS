@@ -12,7 +12,7 @@ Moreover, the metadata is standardized using the Brick schema.
 This is the primary repo to access the dataset.
 
 **Acknowledgement**:
-This is part of the NSW, Australia Digital Infrastructure Energy Flexibility (DIEF) project: https://research.csiro.au/dch/projects/nsw-dief/ 
+This is part of the NSW, Australia [Digital Infrastructure Energy Flexibility (DIEF)](https://research.csiro.au/dch/projects/nsw-dief/) project.
 
 # Abstract
 
