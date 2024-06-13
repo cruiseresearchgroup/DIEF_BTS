@@ -761,11 +761,4 @@ dataset that has not been captured by the Data Card. For example,
 does the dataset contain data that might be offensive, insulting, threatening,
 or might otherwise cause anxiety? If so, please contact the appropriate parties
 to mitigate any risks. -->
-### Title
-Write notes here.
-
-### Title
-Write notes here.
-
-### Title
-Write notes here.
+No additional information.
