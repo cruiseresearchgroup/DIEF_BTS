@@ -76,14 +76,14 @@ List of files that will be made available after the competitions:
 
 # Code
 
-The `20240530_class_code` folder contains the code to reproduce the classifications results.
+The `20240530_class_code` folder contains the code to reproduce the classification results.
 Here is a short description of each file:
 
 * `requirement.txt` **is coming**, but all the information are already available in `e12_pbs_py.sh.o116050675`.
 * `xySplit.py` Use this to split `train.zip` to `train_X.zip` and `train_Y.csv`.
-* `e05_naieve_02.ipynb` Run this notebok to get the naieve results.
+* `e05_naieve_02.ipynb` Run this notebook to get the naive results.
 * `e07_02_LR.ipynb` Run this notebook to get the Logistic Regression results.
-* `e08_02_RF.ipynb` Run thus notebook to get the Random Forest results.
+* `e08_02_RF.ipynb` Run this notebook to get the Random Forest results.
 * `e09_01_XGBoost.ipynb` Run this notebook to get the XGBoost results.
 * `thuml_tslib_dief` This folder contains the **modified** library from Tsinghua University Machine Learning Group's library: https://github.com/thuml/Time-Series-Library
 * `e12_pbs_py.sh` This is the setup to run the `Transformer` model. Consider this as the **main** function.
@@ -91,6 +91,8 @@ Here is a short description of each file:
 * `e13_pbs_py.sh` `DLinear`
 * `e15_pbs_py.sh` `PatchTST`
 * `e17_pbs_py.sh` `Informer`
+
+The `20240630_zeroshot_code` folder contains the code to reproduce the zero-shot forecasting results. This folder is a **modified** library from Tsinghua University Machine Learning Group's library: https://github.com/thuml/Time-Series-Library
 
 # Misc
 
