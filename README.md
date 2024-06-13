@@ -95,7 +95,7 @@ Here is a short description of each file:
 * `e15_pbs_py.sh` `PatchTST`
 * `e17_pbs_py.sh` `Informer`
 
-The `zeroshot_preprocessing` folder contains the code to preprocess the zero-shot forecasting data. Run `zeroshot_preprocessing/SiteA_preprocessing.ipynb` to generate the processed `BTS_A` data. 
+The `zeroshot_preprocess` folder contains the code to preprocess the zero-shot forecasting data. Run `zeroshot_preprocess/SiteA_preprocessing.ipynb` to generate the processed `BTS_A` data. 
 * Note that, as of now, only the training data for the classification benchmark are made publicly available as we are planning to host a competition using this dataset. None of the data for the zero-shot forecasting benchmark are made available as of now. (Last update 2024 06 12)
   
 The `20240612_zeroshot_code` folder contains the code to reproduce the zero-shot forecasting results. This folder is a **modified** library from Tsinghua University Machine Learning Group's library: https://github.com/thuml/Time-Series-Library
