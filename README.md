@@ -125,9 +125,21 @@ The `20240612_zeroshot_code` folder contains the code to reproduce the zero-shot
 
 # Citation
 
-BibTex:
+BibTeX:
 ```
-@article{Prabowo2024,
+@misc{prabowo2024bts,
+      title={BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics}, 
+      author={Arian Prabowo and Xiachong Lin and Imran Razzak and Hao Xue and Emily W. Yap and Matthew Amos and Flora D. Salim},
+      year={2024},
+      eprint={2406.08990},
+      archivePrefix={arXiv},
+      doi=10.48550/arXiv.2406.08990
+}
+```
+
+BibTeX:
+```
+@article{prabowo2024btsTrain,
 author = "Arian Prabowo and Xiachong Lin and Imran Razzak and Hao Xue and Emily Yap and Matthew Amos and Flora Salim",
 title = "{BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics (TRAIN ONLY)}",
 year = "2024",
