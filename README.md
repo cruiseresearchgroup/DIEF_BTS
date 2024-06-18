@@ -6,6 +6,8 @@ This repo is under construction.
 
 <a href="https://www.instagram.com/miss.tonton/">Anton Grabolle</a> / <a href="https://www.betterimagesofai.org">Better Images of AI</a> / AI Architecture / <a href="https://creativecommons.org/licenses/by/4.0/">Licenced by CC-BY 4.0</a></span>
 
+**BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics**. [[ArXiv](https://arxiv.org/abs/2406.08990)]
+
 The Building TimeSeries (BTS) dataset covers three buildings over a three-year period, comprising more than ten thousand timeseries data points with hundreds of unique ontologies.
 Moreover, the metadata is standardized using the Brick schema.
 
