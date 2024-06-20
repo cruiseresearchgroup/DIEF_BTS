@@ -98,6 +98,8 @@ List of files that will be made available after the competitions:
 
 # Code
 
+![The diagram illustrates and visualize a Brick graph, showing how components like the HVAC zone, fan coil unit, and sensors interact, along with their relationships to an open office space and its occupants. It also includes time-series data points and Brick ontology terms for a comprehensive representation of the building's systems and their environment.](Brick_viz_fixed.png)
+
 The `20240530_class_code` folder contains the code to reproduce the classification results.
 Here is a short description of each file:
 
@@ -140,12 +142,12 @@ BibTeX:
 BibTeX:
 ```
 @article{prabowo2024btsTrain,
-author = "Arian Prabowo and Xiachong Lin and Imran Razzak and Hao Xue and Emily Yap and Matthew Amos and Flora Salim",
-title = "{BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics (TRAIN ONLY)}",
-year = "2024",
-month = "6",
-url = "https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Empowering_Large-Scale_Building_Analytics_TRAIN_ONLY_/25912180",
-doi = "10.6084/m9.figshare.25912180.v1"
+    author = "Arian Prabowo and Xiachong Lin and Imran Razzak and Hao Xue and Emily Yap and Matthew Amos and Flora Salim",
+    title = "{BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics (TRAIN ONLY)}",
+    year = "2024",
+    month = "6",
+    url = "https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Empowering_Large-Scale_Building_Analytics_TRAIN_ONLY_/25912180",
+    doi = "10.6084/m9.figshare.25912180.v1"
 }
 ```
 
