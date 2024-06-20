@@ -1,5 +1,3 @@
-This repo is under construction.
-
 # BTS: Building Timeseries Dataset
 
 ![A dilapidated grey building is seen as in a 3D plan against a bright red background. 0s and 1s represent data streaming out of the windows and gaps in the roof.](AntonGrabolle-AIArchitecture-1280x720.png)
