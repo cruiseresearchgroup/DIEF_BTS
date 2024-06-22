@@ -125,6 +125,10 @@ The `20240612_zeroshot_code` folder contains the code to reproduce the zero-shot
 
 # Citation
 
+```
+Arian Prabowo, Xiachong Lin, Imran Razzak, Hao Xue, Emily W. Yap, Matthew Amos, Flora D. Salim. BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics, 2024. arXiv:2406.08990. https://doi.org/10.48550/arXiv.2406.08990.
+```
+
 BibTeX:
 ```
 @misc{prabowo2024bts,
