@@ -118,20 +118,25 @@ class datasetDIEF_rs4H(Dataset):
             partition = 'train'
         self.pathX = root_path + partition + '_X.zip'
         self.pathY = root_path + partition + '_Y.csv'
-        # load Y
+        # LOAD Y
+        # init with no Y
         self.getitem = self.get_item_without_Y
         self.have_Y = False
+        # check for Y
         if os.path.exists(self.pathY) and os.path.isfile(self.pathY):
             print('datasetDIEF_rs4H:',flag,': Has Y label.')
             self.have_Y = True
             self.labels_df = pd.read_csv(self.pathY, index_col=0)
+            print('datasetDIEF_rs4H: original dfY.shape:', self.labels_df.shape)
             if flag == 'TRAIN':
                 self.labels_df = self.labels_df.iloc[:-int(self.labels_df.shape[0]*VALI ),:]
             elif flag == 'VALI':
                 self.labels_df = self.labels_df.iloc[ -int(self.labels_df.shape[0]*VALI):,:]
             if args.test_run:
                 self.labels_df = self.labels_df.iloc[:3*args.batch_size,:]
+            print('datasetDIEF_rs4H: dfY.shape after sub-partition:', self.labels_df.shape)
             self.aY = (self.labels_df.iloc[:,3:].values).astype(np.float32)
+            print('datasetDIEF_rs4H: aY.shape:', self.aY.shape)
             self.getitem = self.get_item_with_Y
         else:
             self.have_Y = False
@@ -139,19 +144,31 @@ class datasetDIEF_rs4H(Dataset):
             self.aY = np.zeros(240).astype(np.float32)
         # load X
         zipX = ZipFile(self.pathX, 'r')
-        lFiles = zipX.namelist()[1:]
-        if flag == 'TRAIN':
-            lFiles = lFiles[:-int(len(lFiles)*VALI)]
-        elif flag == 'VALI':
-            lFiles = lFiles[-int(len(lFiles)*VALI):]
-        if args.test_run:
-            lFiles = lFiles[:3*args.batch_size]
+        lFiles = zipX.namelist()[1:] # do not use this one, because it is not sorted.
+        print('datasetDIEF_rs4H: n files in zip:', len(lFiles))
+        # TODO: Edit for competition when the file list is not provided
+        lFiles = self.labels_df['FileNameX'].values
+        print('datasetDIEF_rs4H: n files in dfY:', len(lFiles))
+        # We don't need the next block anymore,
+        # since we already got the sub partition from dfY
+        # if flag == 'TRAIN':
+        #     lFiles = lFiles[:-int(len(lFiles)*VALI)]
+        # elif flag == 'VALI':
+        #     lFiles = lFiles[-int(len(lFiles)*VALI):]
+        # if args.test_run:
+        #     lFiles = lFiles[:3*args.batch_size]
         
         self.lX = []
+        zipXnamelist = zipX.namelist() # this function is VERY SLOW!
         for ifilename in tqdm(lFiles, desc='datasetDIEF_rs4H:init:load_X:'+flag):
-            if ifilename[-4:] != '.pkl':
+            # if ifilename[-4:] != '.pkl':
+            #     continue
+            if not partition + '_X/'+ifilename in zipXnamelist:
+                print('datasetDIEF_rs4H: file not found:', ifilename)
+                ix = np.zeros((1, 4))
+                self.lX.append(ix)
                 continue
-            d = pickle.loads(zipX.read(ifilename))
+            d = pickle.loads(zipX.read(partition + '_X/'+ifilename))
             d['t'] = np.datetime64(0,'ns') + d['t'] # convert timedelta to datetime
             d['v'] = util.slsScaler(d['v'])
             # RESAMPLE to 4 hours
@@ -167,9 +184,14 @@ class datasetDIEF_rs4H(Dataset):
             ix = (ix - RESAMPLE_U)/RESAMPLE_S
             self.lX.append(ix)
 
+        # final checks
         if self.have_Y:
-            assert len(self.lX) == self.aY.shape[0]
-            assert len(self.lX) == self.labels_df.shape[0]
+            if len(self.lX) != self.aY.shape[0]:
+                print('datasetDIEF_rs4H: NOT EQUAL aY', len(self.lX), self.aY.shape[0])
+                assert len(self.lX) == self.aY.shape[0]
+            if len(self.lX) != self.labels_df.shape[0]:
+                print('datasetDIEF_rs4H: NOT EQUAL df', len(self.lX), self.labels_df.shape[0])
+                assert len(self.lX) == self.labels_df.shape[0]
 
     def get_item_with_Y(self, ind):
         return torch.from_numpy(self.lX[ind]), torch.from_numpy(self.aY[ind,:])
@@ -179,6 +201,16 @@ class datasetDIEF_rs4H(Dataset):
     
     def __getitem__(self, ind):
         return self.getitem(ind)
+    
+    def print_shape(self, is_actually_print=True):
+        str_return = 'datasetDIEF_rs4H: x shape: ' + str(self.lX[0].shape)
+        if self.have_Y:
+            str_return += ', y shape: ' + str(self.aY[0].shape)
+        else:
+            str_return += 'no Y'
+        if is_actually_print:
+            print(str_return)
+        return str_return
 
     def __len__(self):
         return len(self.lX)
