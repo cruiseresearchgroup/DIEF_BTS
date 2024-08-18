@@ -157,6 +157,7 @@ BibTeX:
 
 * Contact for this code repo: https://www.arianprabowo.com/
 * Similar dataset: [LBNL Building 59](https://datadryad.org/stash/dataset/doi:10.7941/D1N33Q) A three-year building operational performance dataset for informing energy efficiency
+* Similar dataset: [Mortar](https://mortardata.org/) (Access is currently restricted. Last update:2024 08 19)
 * Other buildings related dataset: [Building Data Genome Directory](https://buds-lab-building-data-directory-meta-directory-s0imdd.streamlit.app/)
 * Learn more about building analytics and data-driven smart buildings from [IEA EBC Annex 81](https://annex81.iea-ebc.org/).
 
