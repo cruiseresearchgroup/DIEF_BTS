@@ -9,7 +9,7 @@
 The Building TimeSeries (BTS) dataset covers three buildings over a three-year period, comprising more than ten thousand timeseries data points with hundreds of unique ontologies.
 Moreover, the metadata is standardized using the Brick schema.
 
-This is the primary repo to access the dataset.
+This is the official repository of our NeurIPS 2024 DB Track paper that present this dataset.
 
 **Acknowledgement**:
 This is part of the NSW, Australia [Digital Infrastructure Energy Flexibility (DIEF)](https://research.csiro.au/dch/projects/nsw-dief/) project.
@@ -131,14 +131,13 @@ Arian Prabowo, Xiachong Lin, Imran Razzak, Hao Xue, Emily W. Yap, Matthew Amos, 
 
 BibTeX:
 ```
-@misc{prabowo2024bts,
-      title={BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics}, 
+@inproceedings{prabowo2024bts,
+      title={BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics},
       author={Arian Prabowo and Xiachong Lin and Imran Razzak and Hao Xue and Emily W. Yap and Matthew Amos and Flora D. Salim},
       year={2024},
-      eprint={2406.08990},
-      archivePrefix={arXiv},
-      doi=10.48550/arXiv.2406.08990
+      booktitle={Advances in Neural Information Processing Systems}
 }
+
 ```
 
 BibTeX:
