@@ -131,6 +131,23 @@ The `20240612_zeroshot_code` folder contains the code to reproduce the zero-shot
 * `./scripts/sample_DLinear.sh` is a sample script that trains a DLinear on `BTS_A` and tests on `BTS_B` and `BTS_C`. To run the code, replace the argument `data_path` with your own data path
 * To train alternative models, replace the `model_name` with the target model name that is implemented in `./model` directory and change the corresponding configurations
 
+
+
+
+
+
+
+# Brick by Brick: Automating Building Data Classification Challenge
+
+This dataset is used as a part of the following competition: https://www.aicrowd.com/challenges/brick-by-brick-2024
+
+A global challenge to automate building data classification, unlocking more intelligent, energy-efficient buildings for a sustainable future.
+Buildings are one of the biggest energy consumers in the modern world, making energy efficiency essential. However, managing building systems data across different buildings is time-intensive and costly due to inconsistent data formats. This challenge invites you to transform building management by creating a solution that classifies building data automatically, promoting standardised, energy-efficient management for a more sustainable world.
+
+
+
+
+
 # Citation
 
 ```
