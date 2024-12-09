@@ -4,12 +4,19 @@
 
 <a href="https://www.instagram.com/miss.tonton/">Anton Grabolle</a> / <a href="https://www.betterimagesofai.org">Better Images of AI</a> / AI Architecture / <a href="https://creativecommons.org/licenses/by/4.0/">Licenced by CC-BY 4.0</a></span>
 
-**BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics**. [[ArXiv](https://arxiv.org/abs/2406.08990)]
+**BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics**.
+[[ArXiv](https://arxiv.org/abs/2406.08990)]
+[[OpenReview]([https://arxiv.org/abs/2406.08990](https://openreview.net/forum?id=6cCFK69vJI)]
+[[NeurIPS](https://neurips.cc/virtual/2024/poster/97839)]
+[[Slides](2024_12_09_BTS_NeurIPS_slides.pdf)]
+[[Poster](2024_12_09_BTS_NeurIPS_Poster.pdf)]
+
+
 
 The Building TimeSeries (BTS) dataset covers three buildings over a three-year period, comprising more than ten thousand timeseries data points with hundreds of unique ontologies.
 Moreover, the metadata is standardized using the Brick schema.
 
-This is the official repository of our NeurIPS 2024 DB Track paper that present this dataset.
+This is the official repository of our [NeurIPS 2024](https://neurips.cc/virtual/2024/poster/97839) DB Track paper that present this dataset.
 
 **Acknowledgement**:
 This is part of the NSW, Australia [Digital Infrastructure Energy Flexibility (DIEF)](https://research.csiro.au/dch/projects/nsw-dief/) project.
