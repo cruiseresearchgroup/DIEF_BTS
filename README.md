@@ -141,8 +141,6 @@ The `20240612_zeroshot_code` folder contains the code to reproduce the zero-shot
 
 ![A promotional flyer for "Brick By Brick 2024: Automating Building Data Classification," featuring red pixel-like building graphics on the right. The flyer includes the UNSW Sydney logo and AICrowd logo at the top. Below the event title, it highlights a $11,000 AUD cash prize and a $9,000 AUD travel grant. The event URL is provided as "aicrowd.com/brick2024".](2024_12_09_Flyer_by_AICrowd.jpg)
 
-2024_12_09_Flyer_by_AICrowd.jpg
-
 This dataset is used as a part of the following competition: https://www.aicrowd.com/challenges/brick-by-brick-2024
 
 A global challenge to automate building data classification, unlocking more intelligent, energy-efficient buildings for a sustainable future.
