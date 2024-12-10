@@ -1,4 +1,4 @@
-![A promotional flyer for "Brick By Brick 2024: Automating Building Data Classification," featuring red pixel-like building graphics on the right. The flyer includes the UNSW Sydney logo and AICrowd logo at the top. Below the event title, it highlights a $11,000 AUD cash prize and a $9,000 AUD travel grant. The event URL is provided as "aicrowd.com/brick2024".](2024_12_09_Flyer_by_AICrowd.jpg)
+![A promotional flyer for "Brick By Brick 2024: Automating Building Data Classification," featuring red pixel-like building graphics on the right. The flyer includes the UNSW Sydney logo and AICrowd logo at the top. Below the event title, it highlights a $11,000 AUD cash prize and a $9,000 AUD travel grant. The event URL is provided as "aicrowd.com/brick2024".](/2024_12_09_Flyer_by_AICrowd.jpg)
 
 # Brick by Brick: Automating Building Data Classification Challenge
 
