@@ -10,6 +10,13 @@ Check the official competition page to join the competition and more information
 
 # Starter Kit
 
-To get started, run [`random_submission_py.py`](/competition1/random_submission_py.py) python file and upload the output!
+Here are the steps to get started:
+
+1. Join the challenge from the official AICrowd website and accept the terms: https://www.aicrowd.com/challenges/brick-by-brick-2024
+2. Download the dataset: https://www.aicrowd.com/challenges/brick-by-brick-2024/dataset_files
+3. Download [`random_submission_py.py`](/competition1/random_submission_py.py)
+4. Extract filenames from a ZIP file containing test data (.pkl files).
+5. Run [`random_submission_py.py`](/competition1/random_submission_py.py) locally, and it will generate a sample submission file `data/sample_submission_v0.1.0.csv.gz`
+6. Upload a sample submission file `data/sample_submission_v0.1.0.csv.gz`
 
 You can also use other codes in this library. Note that there are slight changes in the setup between the benchamrk for the paper and the competiton.
