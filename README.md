@@ -144,9 +144,10 @@ The `20240612_zeroshot_code` folder contains the code to reproduce the zero-shot
 This dataset is used as a part of the following competition: https://www.aicrowd.com/challenges/brick-by-brick-2024
 
 A global challenge to automate building data classification, unlocking more intelligent, energy-efficient buildings for a sustainable future.
+
 Buildings are one of the biggest energy consumers in the modern world, making energy efficiency essential. However, managing building systems data across different buildings is time-intensive and costly due to inconsistent data formats. This challenge invites you to transform building management by creating a solution that classifies building data automatically, promoting standardised, energy-efficient management for a more sustainable world.
 
-
+Relevant starter kit code for the competitions are avaiable here: [`/competition1`](/competition1)
 
 
 
