@@ -10,6 +10,6 @@ Check the official competition page to join the competition and more information
 
 # Starter Kit
 
-To get started, run [`random_submission_py.py`](competition1/random_submission_py.py) python file and upload the output!
+To get started, run [`random_submission_py.py`](/competition1/random_submission_py.py) python file and upload the output!
 
 You can also use other codes in this library. Note that there are slight changes in the setup between the benchamrk for the paper and the competiton.
