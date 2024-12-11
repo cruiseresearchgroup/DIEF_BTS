@@ -51,13 +51,12 @@ filenames = [f.replace("test_X/", "") for f in file_list if f.endswith('.pkl')]
 # -----------------------------------------------------------
 # The train_y CSV contains:
 # - 'filename'
-# - 'brick_class_label'
 # - A number of target columns that we need to predict for the test set.
 df_train_y = pd.read_csv(train_y_path, index_col=0)
 
-# Extract all columns except 'filename' and 'brick_class_label'—these are our target columns.
+# Extract all columns except 'filename'—these are our target columns.
 expected_columns = list(df_train_y.columns)
-filtered_columns = sorted([col for col in expected_columns if col not in ['filename', 'brick_class_label']])
+filtered_columns = sorted([col for col in expected_columns if col not in ['filename']])
 
 # Assert that we have the expected number of target columns.
 # The competition expects a total of 94 target columns.
