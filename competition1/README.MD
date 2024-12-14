@@ -14,7 +14,7 @@ To get started, follow these seven easy steps:
 
 1. Join the challenge from the official AICrowd website and accept the terms: https://www.aicrowd.com/challenges/brick-by-brick-2024
 2. Download the dataset: https://www.aicrowd.com/challenges/brick-by-brick-2024/dataset_files
-3. Download [`random_submission_py.py`](/competition1/random_submission.py)
+3. Download [`random_submission.py`](/competition1/random_submission.py)
 4. Create a directory called `data/` in the same location as the `random_submission.py` file 
 5. Move the downloaded dataset files into the `data/` directory. 
 6. Run [`random_submission.py`](/competition1/random_submission.py) locally, and it will generate a sample submission file `data/sample_submission_v0.1.0.csv.gz`. Might take few minutes.
