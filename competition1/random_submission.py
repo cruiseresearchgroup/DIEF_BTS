@@ -71,8 +71,8 @@ assert len(filtered_columns) == 94, f"Expected 94 target columns, found {len(fil
 num_files = len(filenames)
 num_targets = len(filtered_columns)
 
-# Create a numpy array of shape [num_files, num_targets] with random values of -1 or 1
-sample_predictions = np.random.choice([-1, 1], size=(num_files, num_targets)).astype(np.int8)
+# Create a numpy array of shape [num_files, num_targets] with random floats in [0,1].
+sample_predictions = np.random.random((num_files, num_targets)).astype(np.float16)
 
 # -----------------------------------------------------------
 # CREATE THE SUBMISSION DATAFRAME
