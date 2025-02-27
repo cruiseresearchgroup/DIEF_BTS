@@ -15,7 +15,7 @@
 
 
 The Building TimeSeries (BTS) dataset covers three buildings over a three-year period, comprising more than ten thousand timeseries data points with hundreds of unique ontologies.
-Moreover, the metadata is standardized using the Brick schema. Scroll down to the [Access Section](#access) to download the dataset.
+Moreover, the metadata is standardized using the Brick schema. Scroll down to the [Access Section](#access) to download.
 
 This is the official repository of our [NeurIPS 2024](https://neurips.cc/virtual/2024/poster/97839) DB Track paper that present this dataset.
 
