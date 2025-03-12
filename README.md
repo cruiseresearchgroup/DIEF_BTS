@@ -131,7 +131,7 @@ The `20240612_zeroshot_code` folder contains the code to reproduce the zero-shot
 * `./scripts/sample_DLinear.sh` is a sample script that trains a DLinear on `BTS_A` and tests on `BTS_B` and `BTS_C`. To run the code, replace the argument `data_path` with your own data path
 * To train alternative models, replace the `model_name` with the target model name that is implemented in `./model` directory and change the corresponding configurations
 
-
+The `e20_longTail` folder contains the code to reproduce the figures in Appendix B.
 
 
 
