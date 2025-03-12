@@ -158,17 +158,19 @@ Arian Prabowo, Xiachong Lin, Imran Razzak, Hao Xue, Emily W. Yap, Matthew Amos, 
 ```
 
 BibTeX:
+The [NeurIPS 2024] paper
 ```
 @inproceedings{prabowo2024bts,
       title={BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics},
       author={Arian Prabowo and Xiachong Lin and Imran Razzak and Hao Xue and Emily W. Yap and Matthew Amos and Flora D. Salim},
       year={2024},
-      booktitle={Advances in Neural Information Processing Systems}
+      booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+      url={https://openreview.net/forum?id=6cCFK69vJI}
 }
 
 ```
 
-BibTeX:
+The dataset
 ```
 @article{prabowo2024btsTrain,
     author = "Arian Prabowo and Xiachong Lin and Imran Razzak and Hao Xue and Emily Yap and Matthew Amos and Flora Salim",
