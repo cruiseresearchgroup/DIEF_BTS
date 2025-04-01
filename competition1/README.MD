@@ -21,3 +21,9 @@ To get started, follow these seven easy steps:
 7. Upload a sample submission file `data/sample_submission_v0.1.0.csv.gz`
 
 You can also use other codes in this library. Note that there are slight changes in the setup between the benchamrk for the paper and the competiton.
+
+# License
+The intellectual property of the following items are owned by [UNSW Sydney](https://www.unsw.edu.au/):
+* This starter kit
+* [This graphical asset](/competition1/2024_12_09_Flyer_by_AICrowd.jpg)
+* [The challenge description](/competition1/updated_overview.md)
