@@ -64,46 +64,26 @@ If you have not, you will need to install the [rdflib](https://rdflib.readthedoc
 
 Access the raw dataset on [FigShare](https://figshare.com/s/464fbc3d0df172bfd88f).
 
-Access the training dataset on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Empowering_Large-Scale_Building_Analytics_TRAIN_ONLY_/25912180). This train only sub-dataset partition was made available at an earlier time for the submission to peer-review.
-
-
-
+A train only sub-dataset partition was made available at an earlier time for the submission to peer-review.
+Access it on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Empowering_Large-Scale_Building_Analytics_TRAIN_ONLY_/25912180). 
 
 
 
 ## Files description
 
 List of files available now:
-* `train.zip` is the raw time series data. This is a zip of a folder of [`pickle`](https://docs.python.org/3/library/pickle.html) file. Inside each pickle file is a NumPy array with dimension [2,n] where `n` is the number of timesteps. The first row is the timestamp and the second row is the value.
-* `Site_B.ttl` is the turtle file that contains the metadata of Site B using the [Brick schema](https://brickschema.org).
-* `mapper_TrainOnly.csv` contains the information that maps the timeseries filenames in `train.zip` to the `StreamID` in `Site_B.ttl`. Some buildings in `train.zip` are from Site A and the brick schema is not yet made available. This is on purpose.
-* `train_X.zip` and `train_Y.csv` are generated from `train.zip` using the function in the `xySplit.py` file.
-* `train_Y.csv` see above.
+* `Site_A_metadata.csv`, `Site_B_metadata.csv`, and `Site_C_metadata.csv` are the timeseries metadata file containing basic statistics as well as the brick class. Treat the `StreamID` column as the primary key. You can use spreadsheet or pandas to inspect the file.
+* `Site_Aaa.zip`, `Site_Baa.zip`, and `Site_Aaa.zip` are the raw time series data. Each is a zip of a folder of [`pickle`](https://docs.python.org/3/library/pickle.html) files. Inside each pickle file is a list containing: a string of `StreamID`, a 1D NumPy array of timestamps, and another 1D NumPy array of value. You can use the `DIEF_inspect_raw.ipynb` to inspect these files.
+* `Site_A.ttl`, `Site_B.ttl`, and `Site_C.ttl` are the [turtle](https://www.w3.org/TR/turtle/) files that contains the metadata of each buildings using the [Brick schema](https://brickschema.org). Use the `StreamID` to match the nodes in this graph with the timeseries. You can use `DIEF_inspect_brick.ipynb` to inspect these files.
+
 
 The following files are missing and it is intentional:
-* `trainAll_2006.pkl`
-* `trainAll_5564.pkl`
-* `trainAll_6224.pkl`
-* `trainAll_6486.pkl`
-* `train_X10579.pkl`
-* `train_X22414.pkl`
-* `train_X26831.pkl`
-* `train_X14584.pkl`
-* `train_X27109.pkl`
-* `train_X25552.pkl`
-* `train_X30482.pkl`
-* `train_X31456.pkl`
-* `train_X3406.pkl`
-* `train_X8933.pkl`
-* `train_X14736.pkl`
-* `train_X31557.pkl`
+* `Site_Aaa/5765.pickle`
+* `Site_Aaa/7558.pickle`
+* `Site_Aaa/3973.pickle`
+* `Site_Aaa/4445.pickle`
 
-List of files that will be made available after the competitions:
-* `test.zip`
-* `Site_A.ttl`
-* `Site_C.ttl`
-* `mapper.csv`
-
+Not all StreamID has a file.
 
 
 
