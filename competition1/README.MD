@@ -22,6 +22,8 @@ To get started, follow these seven easy steps:
 
 You can also use other codes in this library. Note that there are slight changes in the setup between the benchamrk for the paper and the competiton.
 
+The evaluation function is available here: https://github.com/cruiseresearchgroup/DIEF_BTS/blob/9ac4f4ea077ef0fed129a6761d77e1563056f6c2/20240530_class_code/thuml_tslib_dief/diefComp1Utils.py#L338
+
 # Winners
 
 Congratulation to the top 5 winners! Read the official announcement on [AIcrowd](https://discourse.aicrowd.com/t/brick-by-brick-challenge-2024-winner-announcement-their-solutions/16878).
