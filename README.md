@@ -56,13 +56,20 @@ We also provided the building metadata `Site_B.ttl` in the form of a [Brick](htt
 Accompanied with it is a Brick definition file `Brick_v1.2.1.ttl` and a short code to extract the statistics: `DIEF_inspect_brick.ipynb`.
 If you have not, you will need to install the [rdflib](https://rdflib.readthedocs.io) python package.
 
+
+
+
+
 ## Access
 
-Access the training dataset on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Empowering_Large-Scale_Building_Analytics_TRAIN_ONLY_/25912180).
+Access the raw dataset on [FigShare](https://figshare.com/s/464fbc3d0df172bfd88f).
 
-DOI: `10.6084/m9.figshare.25912180`
+Access the training dataset on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Empowering_Large-Scale_Building_Analytics_TRAIN_ONLY_/25912180). This train only sub-dataset partition was made available at an earlier time for the submission to peer-review.
 
-Note that, as of now, only the training data are made publicly available as we are planning to host a competition using this dataset. (Last update 2024 06 12)
+
+
+
+
 
 ## Files description
 
