@@ -22,6 +22,19 @@ To get started, follow these seven easy steps:
 
 You can also use other codes in this library. Note that there are slight changes in the setup between the benchamrk for the paper and the competiton.
 
+# Winners
+
+Congratulation to the top 5 winners! Read the official announcement on [AIcrowd](https://discourse.aicrowd.com/t/brick-by-brick-challenge-2024-winner-announcement-their-solutions/16878).
+
+The winners' code and documentation will be published here.
+(last update 2025 02 04)
+
+# Post-competition
+
+The training and testing files will archived on FigShare and be made publicly available in prepetuity.
+In the meantime, it is available on AIcrowd https://www.aicrowd.com/challenges/brick-by-brick-2024/dataset_files (you might have to accept the terms first).
+(last update 2025 02 04)
+
 # License
 The intellectual property of the following items are owned by [UNSW Sydney](https://www.unsw.edu.au/):
 * This starter kit
