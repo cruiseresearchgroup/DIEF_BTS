@@ -62,7 +62,7 @@ If you have not, you will need to install the [rdflib](https://rdflib.readthedoc
 
 ## Access
 
-Access the raw dataset on [FigShare](https://figshare.com/s/464fbc3d0df172bfd88f).
+Access the raw dataset on [FigShare](https://figshare.com/s/464fbc3d0df172bfd88f); DOI: `10.6084/m9.figshare.28705559`.
 
 A train only sub-dataset partition was made available at an earlier time for the submission to peer-review.
 Access it on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Empowering_Large-Scale_Building_Analytics_TRAIN_ONLY_/25912180). 
