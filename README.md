@@ -67,9 +67,7 @@ Access the raw dataset on [FigShare](https://figshare.com/articles/dataset/BTS_B
 A train only sub-dataset partition was made available at an earlier time for the submission to peer-review.
 Access it on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Empowering_Large-Scale_Building_Analytics_TRAIN_ONLY_/25912180). 
 
-
-
-## Files description
+### Files description
 
 List of files available now:
 * `Site_A_metadata.csv`, `Site_B_metadata.csv`, and `Site_C_metadata.csv` are the timeseries metadata file containing basic statistics as well as the brick class. Treat the `StreamID` column as the primary key. You can use spreadsheet or pandas to inspect the file.
@@ -84,6 +82,9 @@ The following files are missing and it is intentional:
 * `Site_Aaa/4445.pickle`
 
 Not all StreamID has a file.
+
+
+
 
 
 
