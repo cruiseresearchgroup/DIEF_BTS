@@ -36,8 +36,10 @@ These tasks represent an essential initial step in addressing challenges related
 Access to the dataset and the code used for benchmarking are available here: https://github.com/cruiseresearchgroup/DIEF_BTS
 
 
-
-
+# Quick start
+1. **Timeseries snippet**: Download the timeseries snippet [`DIEF_B_Snippet50_3weeks.pkl.zip`](DIEF_B_Snippet50_3weeks.pkl.zip) and run [`DIEF_inspect_Snippet.ipynb`](DIEF_inspect_Snippet.ipynb). More info in the [Snippet](#snippet) section below.
+2. **Building metadata knowledge graph in Brick schema**: Download [`Site_B.ttl`](Site_B.ttl) and [`Brick_v1.2.1.ttl`](Site_B.ttl) and run [`DIEF_inspect_brick.ipynb`](DIEF_inspect_brick.ipynb). More info in the [Snippet](#snippet) section below.
+3. **Full Timeseries dataset**: Download the raw dataset on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Raw/28705559) and run `DIEF_inspect_raw.ipynb`. More info in the [Access](#access) section below.
 
 # Dataset
 
@@ -56,10 +58,6 @@ We also provided the building metadata `Site_B.ttl` in the form of a [Brick](htt
 Accompanied with it is a Brick definition file `Brick_v1.2.1.ttl` and a short code to extract the statistics: `DIEF_inspect_brick.ipynb`.
 If you have not, you will need to install the [rdflib](https://rdflib.readthedocs.io) python package.
 
-
-
-
-
 ## Access
 
 Access the raw dataset on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Raw/28705559); DOI: `10.6084/m9.figshare.28705559`.
@@ -70,10 +68,9 @@ Access it on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Times
 ### Files description
 
 List of files available now:
-* `Site_A_metadata.csv`, `Site_B_metadata.csv`, and `Site_C_metadata.csv` are the timeseries metadata file containing basic statistics as well as the brick class. Treat the `StreamID` column as the primary key. You can use spreadsheet or pandas to inspect the file.
-* `Site_Aaa.zip`, `Site_Baa.zip`, and `Site_Aaa.zip` are the raw time series data. Each is a zip of a folder of [`pickle`](https://docs.python.org/3/library/pickle.html) files. Inside each pickle file is a list containing: a string of `StreamID`, a 1D NumPy array of timestamps, and another 1D NumPy array of value. You can use the `DIEF_inspect_raw.ipynb` to inspect these files.
+* `Site_A_metadata.csv`, `Site_B_metadata.csv`, and `Site_C_metadata.csv` are the timeseries metadata file containing basic statistics as well as the brick class. Treat the `StreamID` column as the primary key. Use a spreadsheet software or Python `pandas` library to inspect the file.
+* `Site_Aaa.zip`, `Site_Baa.zip`, and `Site_Aaa.zip` are the raw time series data. Each is a zip of a folder of [`pickle`](https://docs.python.org/3/library/pickle.html) files. Inside each pickle file is a list containing: a string of `StreamID`, a 1D NumPy array of timestamps, and another 1D NumPy array of value. Use `DIEF_inspect_raw.ipynb` to inspect and see how the data is structured.
 * `Site_A.ttl`, `Site_B.ttl`, and `Site_C.ttl` are the [turtle](https://www.w3.org/TR/turtle/) files that contains the metadata of each buildings using the [Brick schema](https://brickschema.org). Use the `StreamID` to match the nodes in this graph with the timeseries. You can use `DIEF_inspect_brick.ipynb` to inspect these files.
-
 
 The following files are missing and it is intentional:
 * `Site_Aaa/5765.pickle`
