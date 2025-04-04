@@ -15,7 +15,7 @@
 
 
 The Building TimeSeries (BTS) dataset covers three buildings over a three-year period, comprising more than ten thousand timeseries data points with hundreds of unique ontologies.
-Moreover, the metadata is standardized using the Brick schema.
+Moreover, the metadata is standardised in the formed of knowledge graph using the [Brick](https://brickschema.org/) schema.
 Scroll down to the [Quick Start](#quick-start) to get started.
 
 This is the official repository of our [NeurIPS 2024](https://neurips.cc/virtual/2024/poster/97839) DB Track paper that present this dataset.
@@ -31,7 +31,7 @@ Optimizing building performance presents a vital opportunity to combat climate c
 However, research in building analytics has been hampered by the lack of accessible, available, and comprehensive real-world datasets on multiple building operations.
 In this paper, we introduce the Building TimeSeries (BTS) dataset.
 Our dataset covers three buildings over a three-year period, comprising more than ten thousand timeseries data points with hundreds of unique ontologies.
-Moreover, the metadata is standardized using the Brick schema.
+Moreover, the metadata is standardized using the [Brick](https://brickschema.org/) schema.
 To demonstrate the utility of this dataset, we performed benchmarks on two tasks: timeseries ontology classification and zero-shot forecasting.
 These tasks represent an essential initial step in addressing challenges related to interoperability in building analytics.
 Access to the dataset and the code used for benchmarking are available here: https://github.com/cruiseresearchgroup/DIEF_BTS
@@ -39,7 +39,7 @@ Access to the dataset and the code used for benchmarking are available here: htt
 
 # Quick Start
 1. **Timeseries snippet**: Download the timeseries snippet [`DIEF_B_Snippet50_3weeks.pkl.zip`](DIEF_B_Snippet50_3weeks.pkl.zip) and run [`DIEF_inspect_Snippet.ipynb`](DIEF_inspect_Snippet.ipynb). More info in the [Snippet](#snippet) section below.
-2. **Building metadata knowledge graph in Brick schema**: Download [`Site_B.ttl`](Site_B.ttl) and [`Brick_v1.2.1.ttl`](Site_B.ttl) and run [`DIEF_inspect_brick.ipynb`](DIEF_inspect_brick.ipynb). More info in the [Snippet](#snippet) section below.
+2. **Building metadata knowledge graph in [Brick](https://brickschema.org/) schema**: Download [`Site_B.ttl`](Site_B.ttl) and [`Brick_v1.2.1.ttl`](Site_B.ttl) and run [`DIEF_inspect_brick.ipynb`](DIEF_inspect_brick.ipynb). Learn more about the Brick schema here: https://brickschema.org/. More info in the [Snippet](#snippet) section below.
 3. **Full Timeseries dataset**: Download the raw dataset on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Raw/28705559) and run `DIEF_inspect_raw.ipynb`. More info in the [Access](#access) section below.
 
 # Dataset
