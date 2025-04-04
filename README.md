@@ -132,7 +132,9 @@ A global challenge to automate building data classification, unlocking more inte
 
 Buildings are one of the biggest energy consumers in the modern world, making energy efficiency essential. However, managing building systems data across different buildings is time-intensive and costly due to inconsistent data formats. This challenge invites you to transform building management by creating a solution that classifies building data automatically, promoting standardised, energy-efficient management for a more sustainable world.
 
-Relevant starter kit code for the competitions are avaiable here: [`/competition1`](/competition1)
+The official archival repository for this competition is available here: [`/competition1`](/competition1)
+
+
 
 
 
