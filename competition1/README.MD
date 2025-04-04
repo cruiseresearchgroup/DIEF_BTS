@@ -26,6 +26,8 @@ The evaluation function is available here: https://github.com/cruiseresearchgrou
 
 # Winners
 
+![The image shows a leaderboard from a machine learning competition ranking teams by F1 Score. The top team, yddm, has an F1 Score of 0.558, last submitted on February 4, 2025. XiaobaiLan follows with 0.544, last submitted on January 28, 2025, and NaiveBaes is third with 0.528, last submitted on February 3, 2025. The table includes team names, performance metrics, number of entries, and submission timestamps, with the top three teams highlighted in gold, silver, and bronze.](/competition1/20250205_leaderboard.png)
+
 Congratulation to the top 5 winners! Read the official announcement on [AIcrowd](https://discourse.aicrowd.com/t/brick-by-brick-challenge-2024-winner-announcement-their-solutions/16878).
 
 The winners' code and documentation will be published here.
@@ -33,9 +35,9 @@ The winners' code and documentation will be published here.
 
 # Post-competition
 
-The training and testing files will archived on FigShare and be made publicly available in prepetuity.
-In the meantime, it is available on AIcrowd https://www.aicrowd.com/challenges/brick-by-brick-2024/dataset_files (you might have to accept the terms first).
-(last update 2025 02 04)
+The training and testing files, as well as some auxilary files, are archived and made publicly available in prepetuity on [FigShare](https://figshare.com/articles/dataset/_AIcrowd_Brick_by_Brick_2024_dataset/28720391).
+`DOI: 10.6084/m9.figshare.28720391`
+
 
 # License
 The intellectual property of the following items are owned by [UNSW Sydney](https://www.unsw.edu.au/):
