@@ -15,7 +15,8 @@
 
 
 The Building TimeSeries (BTS) dataset covers three buildings over a three-year period, comprising more than ten thousand timeseries data points with hundreds of unique ontologies.
-Moreover, the metadata is standardized using the Brick schema. Scroll down to the [Access Section](#access) to download.
+Moreover, the metadata is standardized using the Brick schema.
+Scroll down to the [Quick Start](#quick-start) to get started.
 
 This is the official repository of our [NeurIPS 2024](https://neurips.cc/virtual/2024/poster/97839) DB Track paper that present this dataset.
 
@@ -36,7 +37,7 @@ These tasks represent an essential initial step in addressing challenges related
 Access to the dataset and the code used for benchmarking are available here: https://github.com/cruiseresearchgroup/DIEF_BTS
 
 
-# Quick start
+# Quick Start
 1. **Timeseries snippet**: Download the timeseries snippet [`DIEF_B_Snippet50_3weeks.pkl.zip`](DIEF_B_Snippet50_3weeks.pkl.zip) and run [`DIEF_inspect_Snippet.ipynb`](DIEF_inspect_Snippet.ipynb). More info in the [Snippet](#snippet) section below.
 2. **Building metadata knowledge graph in Brick schema**: Download [`Site_B.ttl`](Site_B.ttl) and [`Brick_v1.2.1.ttl`](Site_B.ttl) and run [`DIEF_inspect_brick.ipynb`](DIEF_inspect_brick.ipynb). More info in the [Snippet](#snippet) section below.
 3. **Full Timeseries dataset**: Download the raw dataset on [FigShare](https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Raw/28705559) and run `DIEF_inspect_raw.ipynb`. More info in the [Access](#access) section below.
