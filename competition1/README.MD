@@ -6,7 +6,9 @@ A global challenge to automate building data classification, unlocking more inte
 
 Buildings are one of the biggest energy consumers in the modern world, making energy efficiency essential. However, managing building systems data across different buildings is time-intensive and costly due to inconsistent data formats. This challenge invites you to transform building management by creating a solution that classifies building data automatically, promoting standardised, energy-efficient management for a more sustainable world.
 
-Check the official competition page to join the competition and more information: https://www.aicrowd.com/challenges/brick-by-brick-2024
+Check the official competition page for more information: https://www.aicrowd.com/challenges/brick-by-brick-2024
+
+Watch the city hall: https://youtu.be/kYyIguY2Kso?si=PwseqtKoHpuumPSw
 
 # Starter Kit
 
