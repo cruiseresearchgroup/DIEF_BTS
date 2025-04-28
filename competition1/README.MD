@@ -8,7 +8,7 @@ Buildings are one of the biggest energy consumers in the modern world, making en
 
 Check the official competition page for more information: https://www.aicrowd.com/challenges/brick-by-brick-2024
 
-Watch the city hall: https://youtu.be/kYyIguY2Kso?si=PwseqtKoHpuumPSw
+Watch the online townhall session: https://youtu.be/kYyIguY2Kso?si=PwseqtKoHpuumPSw
 
 # Starter Kit
 
