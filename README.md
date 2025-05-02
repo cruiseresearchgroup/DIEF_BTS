@@ -170,6 +170,33 @@ The dataset
 }
 ```
 
+# Project Updates
+🚩 **News**(Feb 2025) [A Gap in Time: The Challenge of Processing Heterogeneous IoT Data in Digitalized Buildings](https://ieeexplore.ieee.org/document/10944662)
+```
+@article{lin2025gap,
+  title={A Gap in Time: The Challenge of Processing Heterogeneous IoT Data in Digitalized Buildings}, 
+  author={Lin, Xiachong and Prabowo, Arian and Razzak, Imran and Xue, Hao and Amos, Matthew and Behrens, Sam and Salim, Flora D.},
+  journal={IEEE Pervasive Computing}, 
+  year={2025},
+  pages={1-13},
+  doi={10.1109/MPRV.2025.3542061}
+}
+```
+🚩 **News**(Oct 2024) [BiTSA: Leveraging Time Series Foundation Model for Building Energy Analytics](https://www.computer.org/csdl/proceedings-article/icdmw/2024/306300a891/25buGUOyVaw)
+```
+@inproceedings{lin2024bitsa,
+  title={BiTSA: Leveraging Time Series Foundation Model for Building Energy Analytics},
+  author = { Lin, Xiachong and Prabowo, Arian and Razzak, Imran and Xue, Hao and Amos, Matthew and Behrens, Sam and Salim, Flora D. },
+  booktitle = { 2024 IEEE International Conference on Data Mining Workshops (ICDMW) },
+  year={2024},
+  pages = {891-894},
+  url = {https://doi.ieeecomputersociety.org/10.1109/ICDMW65004.2024.00122},
+  publisher = {IEEE Computer Society},
+  address = {Los Alamitos, CA, USA},
+  month = Dec
+}
+
+```
 # Misc
 
 * Contact for this code repo: https://www.arianprabowo.com/
