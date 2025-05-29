@@ -33,11 +33,11 @@ The evaluation function is available here: https://github.com/cruiseresearchgrou
 Congratulation to the top 5 winners! Read the official announcement on [AIcrowd](https://discourse.aicrowd.com/t/brick-by-brick-challenge-2024-winner-announcement-their-solutions/16878).
 
 The documentations to the winning solutions are published in [WWW '25: Companion Proceedings of the ACM on Web Conference 2025](https://dl.acm.org/doi/proceedings/10.1145/3701716#heading37):
-1. Brick-by-Brick: A Unified CatBoost Framework for IoT Data Classification in Buildings Using Multi-Level Feature Extraction
-2. Winning Brick by Brick with Daily Slices: A 94-Task Unified XGBoost Solution for Brick Schema Classification
-3. Hierarchical Multi-Label Classification of Building Management System Time-Series Data
-4. Another Brick in the Wall: Leveraging Feature Extraction and Ensemble Learning for Building Data Classification
-5. BrickMIR: A Minimal, Imbalance-tuned, and Ratio-based Framework for Brick Metadata Classification
+1. [A Unified CatBoost Framework for IoT Data Classification in Buildings Using Multi-Level Feature Extraction](https://dl.acm.org/doi/10.1145/3701716.3718479)
+2. [Winning Brick by Brick with Daily Slices: A 94-Task Unified XGBoost Solution for Brick Schema Classification](https://dl.acm.org/doi/10.1145/3701716.3718482)
+3. [Hierarchical Multi-Label Classification of Building Management System Time-Series Data](https://dl.acm.org/doi/10.1145/3701716.3718484)
+4. [Another Brick in the Wall: Leveraging Feature Extraction and Ensemble Learning for Building Data Classification](https://dl.acm.org/doi/10.1145/3701716.3718480)
+5. [BrickMIR: A Minimal, Imbalance-tuned, and Ratio-based Framework for Brick Metadata Classification](https://dl.acm.org/doi/10.1145/3701716.3718481)
 
 The winner's code will be linked from here: (last update 2025 05 29)
 
