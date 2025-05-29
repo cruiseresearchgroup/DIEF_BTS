@@ -39,8 +39,7 @@ The documentations to the winning solutions are published in [WWW '25: Companion
 4. Another Brick in the Wall: Leveraging Feature Extraction and Ensemble Learning for Building Data Classification
 5. BrickMIR: A Minimal, Imbalance-tuned, and Ratio-based Framework for Brick Metadata Classification
 
-The winners' code and documentation will be published here.
-(last update 2025 02 04)
+The winner's code will be linked from here: (last update 2025 05 29)
 
 # Post-competition
 
