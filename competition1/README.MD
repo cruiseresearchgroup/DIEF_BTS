@@ -32,6 +32,13 @@ The evaluation function is available here: https://github.com/cruiseresearchgrou
 
 Congratulation to the top 5 winners! Read the official announcement on [AIcrowd](https://discourse.aicrowd.com/t/brick-by-brick-challenge-2024-winner-announcement-their-solutions/16878).
 
+The documentations to the winning solutions are published in [WWW '25: Companion Proceedings of the ACM on Web Conference 2025](https://dl.acm.org/doi/proceedings/10.1145/3701716#heading37):
+1. Brick-by-Brick: A Unified CatBoost Framework for IoT Data Classification in Buildings Using Multi-Level Feature Extraction
+2. Winning Brick by Brick with Daily Slices: A 94-Task Unified XGBoost Solution for Brick Schema Classification
+3. Hierarchical Multi-Label Classification of Building Management System Time-Series Data
+4. Another Brick in the Wall: Leveraging Feature Extraction and Ensemble Learning for Building Data Classification
+5. BrickMIR: A Minimal, Imbalance-tuned, and Ratio-based Framework for Brick Metadata Classification
+
 The winners' code and documentation will be published here.
 (last update 2025 02 04)
 
@@ -40,6 +47,30 @@ The winners' code and documentation will be published here.
 The training and testing files, as well as some auxilary files, are archived and made publicly available in prepetuity on [FigShare](https://figshare.com/articles/dataset/_AIcrowd_Brick_by_Brick_2024_dataset/28720391).
 `DOI: 10.6084/m9.figshare.28720391`
 
+# Cite
+
+Arian Prabowo, Xiachong Lin, Imran Razzak, Hao Xue, Matthew Amos, Stephen D. White, and Flora D. Salim. 2025.
+[Brick-by-Brick: Cyber-Physical Building Data Classification Challenge](https://dl.acm.org/doi/10.1145/3701716.3718483).
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3021–3025. https://doi.org/10.1145/3701716.3718483
+
+```
+@inproceedings{prabowo2025BrickByBrick,
+    author = {Prabowo, Arian and Lin, Xiachong and Razzak, Imran and Xue, Hao and Amos, Matthew and White, Stephen D. and Salim, Flora D.},
+    title = {Brick-by-Brick: Cyber-Physical Building Data Classification Challenge},
+    year = {2025},
+    isbn = {9798400713316},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3701716.3718483},
+    doi = {10.1145/3701716.3718483},
+    booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+    pages = {3021–3025},
+    numpages = {5},
+    keywords = {building, classification, machine learning, ontology, timeseries},
+    location = {Sydney NSW, Australia},
+    series = {WWW '25}
+}
+```
 
 # License
 The intellectual property of the following items are owned by [UNSW Sydney](https://www.unsw.edu.au/):
