@@ -46,6 +46,14 @@ The winner's code will be linked from here: (last update 2025 05 29)
 The training and testing files, as well as some auxilary files, are archived and made publicly available in prepetuity on [FigShare](https://figshare.com/articles/dataset/_AIcrowd_Brick_by_Brick_2024_dataset/28720391).
 `DOI: 10.6084/m9.figshare.28720391`
 
+# Competition 2: FlexTrack: Detecting Energy Flexibility in Buildings
+
+![Promotional graphic for “FlexTrack: Detecting Energy Flexibility in Buildings,” announcing a 2025 launch with a QR code, contact details, and logos of supporting organizations.](/competition1/comp2Promo.png)
+
+Register your interest here: https://forms.office.com/r/9zWyNULv8j
+
+Contact: Dr. Emily Yap (eyap@uow.edu.au)
+
 # Cite
 
 Arian Prabowo, Xiachong Lin, Imran Razzak, Hao Xue, Matthew Amos, Stephen D. White, and Flora D. Salim. 2025.
