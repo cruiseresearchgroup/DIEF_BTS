@@ -44,7 +44,7 @@ In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Associatio
 [Hierarchical Multi-Label Classification of Building Management System Time-Series Data](https://dl.acm.org/doi/10.1145/3701716.3718484).
 In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3039–3043. https://doi.org/10.1145/3701716.3718484. [[code](20250216_3naivebaes.zip)]
 4. [**bram**] Bram Steenwinckel, Sofie Van Hoecke, and Femke Ongenae. 2025.
-Another Brick in the Wall: Leveraging Feature Extraction and Ensemble Learning for Building Data Classification](https://dl.acm.org/doi/10.1145/3701716.3718480).
+[Another Brick in the Wall: Leveraging Feature Extraction and Ensemble Learning for Building Data Classification](https://dl.acm.org/doi/10.1145/3701716.3718480).
 In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3030–3034. https://doi.org/10.1145/3701716.3718480. [[code](20250216_4bram.zip)]
 5. [**chan_jun_hao**] Jun Hao Chan. 2025.
 [BrickMIR: A Minimal, Imbalance-tuned, and Ratio-based Framework for Brick Metadata Classification](https://dl.acm.org/doi/10.1145/3701716.3718481).
