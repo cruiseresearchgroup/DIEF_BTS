@@ -39,16 +39,20 @@ In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Associatio
 [[code](20250216_1yddm.zip): https://github.com/Qiucf-king/www2025_chanllenge_yddm]
 2. [**xiaobailan**] Meilan Xu, Zheng Wen, Xiuqing Xiang, Wenjie Fu, and Bing Wang. 2025.
 [Winning Brick by Brick with Daily Slices: A 94-Task Unified XGBoost Solution for Brick Schema Classification](https://dl.acm.org/doi/10.1145/3701716.3718482).
-In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3035–3038. https://doi.org/10.1145/3701716.3718482.  [[code](20250216_2xiaobailan.zip)]
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3035–3038. https://doi.org/10.1145/3701716.3718482.
+[[code](20250216_2xiaobailan.zip): https://github.com/js-lan/www2025-bbb]
 3. [**NaiveBaes**] Haokai Zhao, Jonas Macken, Leo Dinendra, Yaqing He, and Ruiyuan Yang. 2025.
 [Hierarchical Multi-Label Classification of Building Management System Time-Series Data](https://dl.acm.org/doi/10.1145/3701716.3718484).
-In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3039–3043. https://doi.org/10.1145/3701716.3718484. [[code](20250216_3naivebaes.zip)]
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3039–3043. https://doi.org/10.1145/3701716.3718484.
+[[code](20250216_3naivebaes.zip): https://gitlab.aicrowd.com/leocd/brickbybrick2024_naivebaes]
 4. [**bram**] Bram Steenwinckel, Sofie Van Hoecke, and Femke Ongenae. 2025.
 [Another Brick in the Wall: Leveraging Feature Extraction and Ensemble Learning for Building Data Classification](https://dl.acm.org/doi/10.1145/3701716.3718480).
-In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3030–3034. https://doi.org/10.1145/3701716.3718480. [[code](20250216_4bram.zip)]
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3030–3034. https://doi.org/10.1145/3701716.3718480.
+[[code](20250216_4bram.zip): https://github.com/predict-idlab/brick-by-brick-pipeline]
 5. [**chan_jun_hao**] Jun Hao Chan. 2025.
 [BrickMIR: A Minimal, Imbalance-tuned, and Ratio-based Framework for Brick Metadata Classification](https://dl.acm.org/doi/10.1145/3701716.3718481).
-In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3012–3015. https://doi.org/10.1145/3701716.3718481. [[code](20250216_5chanjunhao.zip)]
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3012–3015. https://doi.org/10.1145/3701716.3718481.
+[[code](20250216_5chanjunhao.zip): https://github.com/chanjunha0/BrickMIR]
 
 The winner's code will be linked from here: (last update 2025 05 29)
 
