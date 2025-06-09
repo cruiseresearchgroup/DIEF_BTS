@@ -35,7 +35,8 @@ Congratulation to the top 5 winners! Read the official announcement on [AIcrowd]
 The documentations to the winning solutions are published in [WWW '25: Companion Proceedings of the ACM on Web Conference 2025](https://dl.acm.org/doi/proceedings/10.1145/3701716#heading37):
 1. [**yddm**] Chengfeng Qiu, Jiahui Zhou, Yongfeng Liao, Zhengliang Cui, and Dan Li. 2025.
 [A Unified CatBoost Framework for IoT Data Classification in Buildings Using Multi-Level Feature Extraction](https://dl.acm.org/doi/10.1145/3701716.3718479).
-In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3026–3029. https://doi.org/10.1145/3701716.3718479. [[code](20250216_1yddm.zip)]
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3026–3029. https://doi.org/10.1145/3701716.3718479.
+[[code](20250216_1yddm.zip): https://github.com/Qiucf-king/www2025_chanllenge_yddm]
 2. [**xiaobailan**] Meilan Xu, Zheng Wen, Xiuqing Xiang, Wenjie Fu, and Bing Wang. 2025.
 [Winning Brick by Brick with Daily Slices: A 94-Task Unified XGBoost Solution for Brick Schema Classification](https://dl.acm.org/doi/10.1145/3701716.3718482).
 In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3035–3038. https://doi.org/10.1145/3701716.3718482.  [[code](20250216_2xiaobailan.zip)]
