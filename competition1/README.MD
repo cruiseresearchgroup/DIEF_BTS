@@ -36,10 +36,18 @@ The documentations to the winning solutions are published in [WWW '25: Companion
 1. Chengfeng Qiu, Jiahui Zhou, Yongfeng Liao, Zhengliang Cui, and Dan Li. 2025.
 [A Unified CatBoost Framework for IoT Data Classification in Buildings Using Multi-Level Feature Extraction](https://dl.acm.org/doi/10.1145/3701716.3718479).
 In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3026–3029. https://doi.org/10.1145/3701716.3718479
-2. [Winning Brick by Brick with Daily Slices: A 94-Task Unified XGBoost Solution for Brick Schema Classification](https://dl.acm.org/doi/10.1145/3701716.3718482)
-3. [Hierarchical Multi-Label Classification of Building Management System Time-Series Data](https://dl.acm.org/doi/10.1145/3701716.3718484)
-4. [Another Brick in the Wall: Leveraging Feature Extraction and Ensemble Learning for Building Data Classification](https://dl.acm.org/doi/10.1145/3701716.3718480)
-5. [BrickMIR: A Minimal, Imbalance-tuned, and Ratio-based Framework for Brick Metadata Classification](https://dl.acm.org/doi/10.1145/3701716.3718481)
+2. Meilan Xu, Zheng Wen, Xiuqing Xiang, Wenjie Fu, and Bing Wang. 2025.
+[Winning Brick by Brick with Daily Slices: A 94-Task Unified XGBoost Solution for Brick Schema Classification](https://dl.acm.org/doi/10.1145/3701716.3718482).
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3035–3038. https://doi.org/10.1145/3701716.3718482
+3. Haokai Zhao, Jonas Macken, Leo Dinendra, Yaqing He, and Ruiyuan Yang. 2025.
+[Hierarchical Multi-Label Classification of Building Management System Time-Series Data](https://dl.acm.org/doi/10.1145/3701716.3718484).
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3039–3043. https://doi.org/10.1145/3701716.3718484
+4. Bram Steenwinckel, Sofie Van Hoecke, and Femke Ongenae. 2025.
+Another Brick in the Wall: Leveraging Feature Extraction and Ensemble Learning for Building Data Classification](https://dl.acm.org/doi/10.1145/3701716.3718480).
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3030–3034. https://doi.org/10.1145/3701716.3718480
+5. Jun Hao Chan. 2025.
+[BrickMIR: A Minimal, Imbalance-tuned, and Ratio-based Framework for Brick Metadata Classification](https://dl.acm.org/doi/10.1145/3701716.3718481).
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3012–3015. https://doi.org/10.1145/3701716.3718481
 
 The winner's code will be linked from here: (last update 2025 05 29)
 
