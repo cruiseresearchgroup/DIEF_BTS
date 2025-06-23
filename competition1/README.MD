@@ -58,7 +58,7 @@ Honourable mention:
 [**FLAME**]
 Kaushik Gopalan, Prithvi Dhyani, and Arunima Srikant. 2025.
 [A Simple Feature Extraction based Approach to Solving the Brick by Brick 2024 Challenge](https://dl.acm.org/doi/10.1145/3701716.3719637).
-In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3016–3020. https://doi-org.wwwproxy1.library.unsw.edu.au/10.1145/3701716.3719637
+In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3016–3020. https://dl.acm.org/doi/10.1145/3701716.3719637.
 [code: https://github.com/kaushik-gopalan/brick-submission]
 
 # Post-competition
