@@ -171,7 +171,28 @@ The dataset
 ```
 
 # Project Updates
-🚩 **News**(Feb 2025) [A Gap in Time: The Challenge of Processing Heterogeneous IoT Data in Digitalized Buildings](https://ieeexplore.ieee.org/document/10944662)
+
+[WWW 2025]:  [Brick-by-Brick: Cyber-Physical Building Data Classification Challenge](https://dl.acm.org/doi/10.1145/3701716.3718483)
+```
+@inproceedings{prabowo2025brick,
+	author = {Prabowo, Arian and Lin, Xiachong and Razzak, Imran and Xue, Hao and Amos, Matthew and White, Stephen D. and Salim, Flora D.},
+	title = {Brick-by-Brick: Cyber-Physical Building Data Classification Challenge},
+	year = {2025},
+	isbn = {9798400713316},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3701716.3718483},
+	doi = {10.1145/3701716.3718483},
+	booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+	pages = {3021–3025},
+	numpages = {5},
+	keywords = {building, classification, machine learning, ontology, timeseries},
+	location = {Sydney NSW, Australia},
+	series = {WWW '25}
+}
+```
+
+[PerCom 2025]: [A Gap in Time: The Challenge of Processing Heterogeneous IoT Data in Digitalized Buildings](https://ieeexplore.ieee.org/document/10944662)
 ```
 @article{lin2025gap,
   title={A Gap in Time: The Challenge of Processing Heterogeneous IoT Data in Digitalized Buildings}, 
@@ -182,7 +203,7 @@ The dataset
   doi={10.1109/MPRV.2025.3542061}
 }
 ```
-🚩 **News**(Oct 2024) [BiTSA: Leveraging Time Series Foundation Model for Building Energy Analytics](https://www.computer.org/csdl/proceedings-article/icdmw/2024/306300a891/25buGUOyVaw)
+[ICDMW 2024]: [BiTSA: Leveraging Time Series Foundation Model for Building Energy Analytics](https://www.computer.org/csdl/proceedings-article/icdmw/2024/306300a891/25buGUOyVaw)
 ```
 @inproceedings{lin2024bitsa,
   title={BiTSA: Leveraging Time Series Foundation Model for Building Energy Analytics},
