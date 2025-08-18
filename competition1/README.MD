@@ -61,6 +61,8 @@ Kaushik Gopalan, Prithvi Dhyani, and Arunima Srikant. 2025.
 In Companion Proceedings of the ACM on Web Conference 2025 (WWW '25). Association for Computing Machinery, New York, NY, USA, 3016–3020. https://dl.acm.org/doi/10.1145/3701716.3719637.
 [code: https://github.com/kaushik-gopalan/brick-submission]
 
+These solutions were presented in the Web Conference 2025 Competition track: https://cruiseresearchgroup.github.io/bbb.html
+
 The videos of the talk will be available on ACM SIGWEB youtube channel: https://www.youtube.com/@ACMSIGWEB/videos (last update 2025 06 24)
 
 # Post-competition
