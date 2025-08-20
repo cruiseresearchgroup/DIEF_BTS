@@ -74,7 +74,7 @@ The training and testing files, as well as some auxilary files, are archived and
 
 ![Banner for the Flextrack Challenge with the tagline 'Detecting Energy Flexibility in Buildings.' It highlights prizes of 10,000 AUD cash and a 10,000 AUD travel grant. On the right is an illustration of stylized green and white buildings connected by glowing lines, alongside a wind turbine and solar panel, symbolizing renewable energy.](/competition1/comp2_banner.jpg)
 
-https://www.aicrowd.com/challenges/flextrack-challenge-2025
+This challenge calls on participants to build machine learning models that can identify demand response events and measure their impact by distinguishing normal energy use from intentional shifts. https://www.aicrowd.com/challenges/flextrack-challenge-2025
 
 # Cite
 
