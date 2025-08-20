@@ -72,11 +72,9 @@ The training and testing files, as well as some auxilary files, are archived and
 
 # Competition 2: FlexTrack: Detecting Energy Flexibility in Buildings
 
-![Promotional graphic for “FlexTrack: Detecting Energy Flexibility in Buildings,” announcing a 2025 launch with a QR code, contact details, and logos of supporting organizations.](/competition1/comp2Promo.png)
+![Banner for the Flextrack Challenge with the tagline 'Detecting Energy Flexibility in Buildings.' It highlights prizes of 10,000 AUD cash and a 10,000 AUD travel grant. On the right is an illustration of stylized green and white buildings connected by glowing lines, alongside a wind turbine and solar panel, symbolizing renewable energy.](/competition1/comp2_banner.jpg)
 
-Register your interest here: https://forms.office.com/r/9zWyNULv8j
-
-Contact: Dr. Emily Yap (eyap@uow.edu.au)
+https://www.aicrowd.com/challenges/flextrack-challenge-2025
 
 # Cite
 
