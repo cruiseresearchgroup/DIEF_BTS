@@ -135,7 +135,7 @@ Buildings are one of the biggest energy consumers in the modern world, making en
 
 The official archival repository for this competition is available here: [`/competition1`](/competition1)
 
-
+This competition has concluded. However, the sequel competition has just commenced. Check it out here: https://www.aicrowd.com/challenges/flextrack-challenge-2025 (last update, 2025 08 25).
 
 
 
