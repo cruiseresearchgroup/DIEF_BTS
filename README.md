@@ -46,6 +46,11 @@ Access to the dataset and the code used for benchmarking are available here: htt
 
 View the [data card](https://sites.research.google/datacardsplaybook/) [here](BTS_DataCards.md).
 
+The exact building is kept anonymous, but here are the general locations of the buildings:
+* **BTS A**: Canberra, ACT, Australia
+* **BTS B**: Newcastle, NSW, Australia
+* **BTS C**: Melbourne, VIC, Australia
+
 ## Snippet
 
 ![A plot of the timeseries in the snippet.](snippet_6TS_plot.png)
